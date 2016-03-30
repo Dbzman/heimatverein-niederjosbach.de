@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+{{ template "_internal/pagination.html" . }}
+{{ range .Paginator.Pages }}
+  <div class="list-item">
+    {{ if isset .Params "list_image" }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="{{ .Permalink }}" class="thumbnail">
+          <img{{ with .Params.list_image }} class="blog-preview-image" src="{{ . }}"{{ end }} alt="{{ .Title }}">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>
+          {{ .Summary }}
+        </p>
+      </div>
+    </div>
+    <div class="item-date">Published on {{ .Date.Format "2006-01-02" }}</div>
+
+
+    {{ else }}
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <p>
+      {{ .Summary }}
+    </p>
+    <div class="item-date">Published on {{ .Date.Format "2006-01-02" }}</div>
+    {{ end }}
+    <hr>
+  </div>
+  
+{{ end }}
+
+{{ partial "footer.html" . }}

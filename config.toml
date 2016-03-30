@@ -1,3 +1,26 @@
 baseurl = "http://heimatverein-niederjosbach.de/"
 languageCode = "de-de"
 title = "Niederjosbacher Heimat- und Geschichtsverein 2007 e.V."
+theme = "heimatverein-niederjosbach"
+pluralizelisttitles = "false"
+
+[params]
+  gallery_url="http://galerie.heimatverein-niederjosbach.de"
+
+[[menu.main]]
+  name = "Home"
+  weight = -110
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Aktuelles"
+  weight = -109
+  identifier = "aktuelles"
+  url = "/aktuelles"
+
+[[menu.main]]
+  name = "Termine"
+  weight = -100
+  identifier = "termine"
+  url = "/termine"

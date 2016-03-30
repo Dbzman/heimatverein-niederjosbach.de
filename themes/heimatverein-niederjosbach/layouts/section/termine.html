@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+{{ template "_internal/pagination.html" . }}
+{{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
+
+Termine der Niederjosbacher Vereine für das Jahr {{ .Now.Year }}
+  <div class="list-item">
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <p>
+      {{ .Summary }}
+    </p>
+    <div class="item-date">Termin am {{ .Date.Format "2006-01-02" }}</div>
+    <hr>
+  </div>
+  
+{{ end }}
+
+{{ partial "footer.html" . }}l
