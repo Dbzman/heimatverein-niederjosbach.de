@@ -24,3 +24,9 @@ pluralizelisttitles = "false"
   weight = -100
   identifier = "termine"
   url = "/termine"
+
+[[menu.main]]
+  name = "Galerie"
+  weight = -109
+  identifier = "galerie"
+  url = "/galerie"

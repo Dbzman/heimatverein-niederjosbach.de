@@ -4,15 +4,38 @@
 {{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
 
 Termine der Niederjosbacher Vereine für das Jahr {{ .Now.Year }}
-  <div class="list-item">
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-    <p>
-      {{ .Summary }}
-    </p>
-    <div class="item-date">Termin am {{ .Date.Format "2006-01-02" }}</div>
-    <hr>
-  </div>
-  
-{{ end }}
 
-{{ partial "footer.html" . }}l
+<section id="no-more-tables">
+  <div class="table-responsive">
+    <table class="table table-hover">
+      <thead>
+        <tr><th>Datum</th>
+          <th>Beginnt</th>
+          <th>Veranstaltung</th>
+          <th>Ort/Treffpunkt</th>
+          <th>Verein</th>
+        </tr></thead>
+        <tbody>
+
+          <tr>
+            <td data-title="Datum">{{ .Date.Format "01. January 2006" }}</td>
+            <td data-title="Beginnt">{{ .Params.start }}</td>
+            <td data-title="Veranstaltung">{{ .Title }}</td>
+            <td data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
+            <td data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
+          </tr>
+
+
+
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  
+  {{ end }}
+
+  {{ partial "footer.html" . }}
+
+
+
