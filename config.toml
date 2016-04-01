@@ -21,12 +21,42 @@ pluralizelisttitles = "false"
 
 [[menu.main]]
   name = "Termine"
-  weight = -100
+  weight = -108
   identifier = "termine"
   url = "/termine"
 
 [[menu.main]]
   name = "Galerie"
-  weight = -109
+  weight = -107
   identifier = "galerie"
   url = "/galerie"
+
+[[menu.main]]
+  name = "Niederjosbach"
+  weight = -106
+  identifier = "niederjosbach"
+  url = "/niederjosbach"
+
+[[menu.main]]
+  name = "Verein"
+  weight = -105
+  identifier = "verein"
+  url = "/verein"
+
+[[menu.main]]
+  name = "Gedichte & Erzählungen"
+  weight = -104
+  identifier = "gedichte-erzaehlungen"
+  url = "/gedichte-erzaehlungen"
+
+[[menu.main]]
+  name = "Kontakt"
+  weight = -103
+  identifier = "kontakt"
+  url = "/kontakt"
+
+[[menu.main]]
+  name = "Impressum"
+  weight = -102
+  identifier = "impressum"
+  url = "/impressum"
