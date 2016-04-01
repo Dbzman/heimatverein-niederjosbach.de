@@ -3,7 +3,7 @@
 {{ template "_internal/pagination.html" . }}
 {{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
 
-Termine der Niederjosbacher Vereine für das Jahr {{ .Now.Year }}
+<h1>Termine der Niederjosbacher Vereine <small>für das Jahr {{ .Now.Year }}</small></h1>
 
 <section id="no-more-tables">
   <div class="table-responsive">

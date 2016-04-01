@@ -1,0 +1,285 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+$default-padding: 15px;
+/*!
+ * Your Theme Name v0.1.0
+ *
+ * Copyright 2013 Your Name
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * This theme was built using the Themestrap Bootstrap Theme Kit.
+ * https://github.com/divshot/themestrap
+ */
+
+// Add CSS Customizations to your theme here.
+
+#header {
+  background-color: #fff;
+}
+
+#content_area {
+  background-color: #fff;
+  @include box-shadow(#333 0px 0px 5px);
+  margin-top: 15px;
+
+  ol {
+    li {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+#content_area_row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// .carousel-caption {
+//  text-align: left; // left align to column start
+//  padding-left: 15px; // .. but a bit of padding
+//  bottom: 0; // stick to bottom without margin
+//  background-color: rgba(192, 57, 43, 0.9); // semi-transparent layer
+//  border-top-left-radius: 15px;
+//  border-top-right-radius: 15px;
+// }
+
+.nhgv_divider {
+  height: 3px;
+  background-color: $brand-primary; // POMEGRANATE
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+body {
+  background-color: $clouds;
+}
+
+.invisible {
+  display: none;
+}
+
+@font-face {
+  font-family: chancery;
+  src: url('../fonts/Apple_Chancery.ttf');
+}
+
+#logo-text {
+  font-family: 'chancery';
+  font-size: 1.5em;
+  display: table-cell;
+  height: 150px;
+  vertical-align: middle;
+}
+
+@media (min-width: 769px) { 
+  #logo-text {
+    font-size: 2.0em;
+    float: none;
+  }
+}
+
+@media (min-width: 992px) { 
+  #logo-text {
+    font-size: 2.5em;
+  }
+}
+
+#header_nhgv {
+  padding: 5px;
+}
+
+
+.carousel .item {
+  width: 100%; /*slider width*/
+  max-height: 350px; /*slider height*/
+}
+
+.carousel-image {
+  background-position: center center;
+  background-size:cover;
+  height: 350px;
+}
+
+.carousel .item .carousel-caption{
+  background: rgba(192, 57, 43, 0.75);
+  height: 90px;
+  width: 100%; /*img width*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 0;
+  text-align: left;
+  padding-left: $default-padding;
+} 
+
+.carousel {
+  margin-left: -$default-padding;
+  margin-right: -$default-padding;
+}
+
+.carousel-indicators {
+  bottom: -10px !important;
+}
+
+@media (max-width: 768px) { 
+  .carousel h1 {
+    font-size: 24px;
+  }
+}
+
+// /*add some makeup*/
+// .carousel .carousel-control {
+//  background: none;
+//  border: none;
+//  top: 50%;
+// }
+/*full width container*/
+// @media (max-width: 767px) {
+//  .block {
+//    margin-left: -20px;
+//    margin-right: -20px;
+//  }
+// }
+
+$nhgv_brand_color: #DF201C;
+$ogv_brand_color: #458B49;
+
+.nhgv_cell {
+  background-color: lighten($nhgv_brand_color, 40%);
+}
+
+.ogv_cell {
+  background-color: lighten($ogv_brand_color, 40%);
+}
+
+// YAG Breadcrumb Styling
+.tx-yag-breadcrumbcomtainer {
+  border: none!important;
+}
+
+// Every image in YAG
+.gallery-image {
+}
+
+// Height-Fix for Chrome and Firefox
+img.mfp-img {
+  max-height: 100%;
+}
+
+.mfp-content {
+  max-height: 80%;
+}
+@media (min-width:1025px) {
+  .mfp-content, .mfp-figure, .mfp-figure figure {
+  height: 100%;
+  }
+}
+
+.mfp-bottom-bar {
+  display: none;
+}
+
+// News
+.news-img-wrap a {
+  border: none!important;
+}
+
+.news-single .article .news-img-wrap {
+  float: left;
+  margin: 3px 12px 5px 0;
+  width: auto!important;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: $brand-primary;
+}
+
+// remove the useless info in yag on the bottom
+.tx-ptextlist-pager-item-display {
+  margin: 0;
+  padding: 0;
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+// Responsive Tables by Chris Coyier
+@media only screen and (max-width: 800px) {
+  $nmt_size: 5px;
+  /* Force table to not be like tables anymore */
+  #no-more-tables table, 
+  #no-more-tables thead, 
+  #no-more-tables tbody, 
+  #no-more-tables th, 
+  #no-more-tables td, 
+  #no-more-tables tr { 
+    display: block; 
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #no-more-tables thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  // disable the hover effect on mobile view
+  #no-more-tables .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: transparent;
+  }
+
+  #no-more-tables tr { 
+    border: 2px solid #ccc;
+    -webkit-border-radius: $nmt_size;
+    -moz-border-radius: $nmt_size;
+    border-radius: $nmt_size;
+    margin: ($nmt_size * 3) auto;
+  }
+
+  #no-more-tables td:last-child {
+    border: none;
+  }
+
+  #no-more-tables td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+    white-space: normal;
+    text-align:left;
+    min-height: 42px;
+  }
+
+  #no-more-tables td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+
+  /*
+  Label the data
+  */
+  #no-more-tables td:before { content: attr(data-title); }
+
+  .table-responsive {
+    border: none;
+  }
+}
