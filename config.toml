@@ -38,6 +38,20 @@ pluralizelisttitles = "false"
   url = "/niederjosbach"
 
 [[menu.main]]
+    name = "Geschichte"
+    weight = 0
+    identifier = "geschichte"
+    url = "/files/geschichte.pdf"
+    parent = "niederjosbach"
+
+[[menu.main]]
+    name = "Geschichte der Schule"
+    weight = 1
+    identifier = "geschichte-der-schule"
+    url = "/files/Dorfschule_zu_Niederjosbach.pdf"
+    parent = "niederjosbach"
+
+[[menu.main]]
   name = "Verein"
   weight = -105
   identifier = "verein"
