@@ -6,15 +6,23 @@
 
 <h1>{{ .Title }}</h1>
 <a href="{{.Site.BaseURL}}/{{.Section}}">Zurück zur Galerie</a>
+{{ $cols := 4}}
+{{ $len := len $files }}
+{{$extraRequired := mod (sub $cols (mod $len $cols)) $cols }}
+{{ range $key, $value := $files }}
+  {{ $isLastElem := not (sub (sub $len 1) $key)}}
 
-<div class="row">
-  {{ range $files }}
+  {{ if modBool $key $cols }}
+  <div class="row">
+  {{ end  }}
     <div class="col-xs-6 col-md-4 col-lg-3">
       <!-- <img src="{{ $galeriePath }}/{{ .Name }}" /> -->
       <img class="thumbnail img-responsive galerie-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ $galeriePath }}/{{ .Name }}" style="object-fit: cover; width: 200px; height: 200px;" />
-    </div>
-{{ end }}
-</div>
+    </div> 
+  {{ if or (modBool (add $key 1) $cols) $isLastElem }}
+  </div>
+  {{ end }}
+{{ end }}  
 {{ .Content }}
 
 {{ partial "footer.html" . }}
