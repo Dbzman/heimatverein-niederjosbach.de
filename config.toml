@@ -3,6 +3,7 @@ languageCode = "de-de"
 title = "Niederjosbacher Heimat- und Geschichtsverein 2007 e.V."
 theme = "heimatverein-niederjosbach"
 pluralizelisttitles = "false"
+paginate = 12
 
 [params]
   gallery_url="http://galerie.heimatverein-niederjosbach.de"

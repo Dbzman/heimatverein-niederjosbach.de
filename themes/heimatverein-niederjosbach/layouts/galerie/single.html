@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-{{ $galeriePath := .Params.galerie }}
+{{ $galeriePath := .Params.galerie_pfad }}
 {{ $dir := (print "galerie/images/" $galeriePath) }}
 {{ $files := readDir $dir }}
 
