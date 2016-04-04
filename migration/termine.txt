@@ -1,0 +1,5 @@
+select event.title, unix_timestamp(event.start_date) as startDate, event.start_time as startTime, allday, category.title as categoryTitle, location.name as locationName
+from `tx_cal_event` event
+inner join `tx_cal_event_category_mm` category_mm on event.`uid` = category_mm.`uid_local`
+inner join `tx_cal_category` category on category.`uid` = category_mm.`uid_foreign`
+inner join `tx_cal_location` location on location.`uid` = event.`location_id`

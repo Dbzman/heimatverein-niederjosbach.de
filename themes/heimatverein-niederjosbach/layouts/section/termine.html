@@ -1,8 +1,5 @@
 {{ partial "header.html" . }}
 
-{{ template "_internal/pagination.html" . }}
-{{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
-
 <h1>Termine der Niederjosbacher Vereine <small>für das Jahr {{ .Now.Year }}</small></h1>
 
 <section id="no-more-tables">
@@ -17,6 +14,7 @@
         </tr></thead>
         <tbody>
 
+        {{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
           <tr>
             <td data-title="Datum">{{ .Date.Format "02. January 2006" }}</td>
             <td data-title="Beginnt">{{ .Date.Format "15:04" }}</td>
@@ -24,6 +22,7 @@
             <td data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
             <td data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
           </tr>
+        {{ end }}
 
 
 
@@ -33,7 +32,6 @@
   </section>
 
   
-  {{ end }}
 
   {{ partial "footer.html" . }}
 
