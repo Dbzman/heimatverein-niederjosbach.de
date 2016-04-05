@@ -16,7 +16,7 @@
 
         {{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
           <tr>
-            <td data-title="Datum">{{ .Date.Format "02. January 2006" }}</td>
+            <td data-title="Datum">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
             <td data-title="Beginnt">{{ .Date.Format "15:04" }}</td>
             <td data-title="Veranstaltung">{{ .Title }}</td>
             <td data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
