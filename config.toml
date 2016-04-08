@@ -49,7 +49,7 @@ paginate = 12
     name = "Geschichte der Schule"
     weight = 1
     identifier = "geschichte-der-schule"
-    url = "/files/Dorfschule_zu_Niederjosbach.pdf"
+    url = "http://heimatverein-niederjosbach.de/files/Dorfschule_zu_Niederjosbach.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
