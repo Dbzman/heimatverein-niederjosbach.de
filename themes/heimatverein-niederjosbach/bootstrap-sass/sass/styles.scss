@@ -168,7 +168,12 @@ $ogv_brand_color: #458B49;
 }
 
 // Every image in YAG
-.gallery-image {
+.galerie-image {
+  margin: 0 auto 15px auto;
+}
+
+.galerie-grid-row {
+  margin-bottom: 15px;
 }
 
 // Height-Fix for Chrome and Firefox

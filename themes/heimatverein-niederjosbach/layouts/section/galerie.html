@@ -12,12 +12,15 @@
   {{ $isLastElem := not (sub (sub $len 1) $key)}}
 
   {{ if modBool $key $cols }}
-  <div class="row">
+  <div class="row galerie-grid-row">
   {{ end }}
     <div class="col-xs-6 col-md-4 col-lg-3">
 
       <a href="{{ .Permalink }}"><img class="thumbnail img-responsive galerie-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ $galeriePath }}/{{ $galerieBild }}" style="object-fit: cover; width: 200px; height: 200px;" />
-      {{ .Title }}</a>
+      </a>
+      <p class="text-center">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </p>
     </div>
   {{ if or (modBool (add $key 1) $cols) $isLastElem }}
   </div>
