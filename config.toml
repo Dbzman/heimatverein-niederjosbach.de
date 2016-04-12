@@ -42,14 +42,14 @@ paginate = 12
     name = "Geschichte"
     weight = 0
     identifier = "geschichte"
-    url = "/files/geschichte.pdf"
+    url = "http://files.heimatverein-niederjosbach.de/niederjosbach/Geschichte.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
     name = "Geschichte der Schule"
     weight = 1
     identifier = "geschichte-der-schule"
-    url = "http://heimatverein-niederjosbach.de/files/Dorfschule_zu_Niederjosbach.pdf"
+    url = "http://files.heimatverein-niederjosbach.de/niederjosbach/Dorfschule_zu_Niederjosbach.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
