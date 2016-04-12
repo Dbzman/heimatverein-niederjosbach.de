@@ -10,7 +10,6 @@ before_script:
   - bundle install --path vendor/bundle
 
 script:
-  - rm ../static/css/styles.css
   - bundle exec compass compile
 
 after_success:
