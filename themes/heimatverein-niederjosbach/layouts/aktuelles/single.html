@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+ 
+{{ $galerie := .Params.galerie }} 
+
+<h1>{{ .Title }}</h1>
+<div class="row">
+  <div class="col-xs-12">
+    {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
+      <a href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" />
+      </a>
+    {{ end }}  
+    {{ .Content }}
+
+    {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
+      <a class="btn btn-primary" href="{{ .Permalink }}">
+        Zur Galerie <strong>"{{ .Title }}"</strong>
+      </a>
+    {{ end }}  
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
