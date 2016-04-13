@@ -169,7 +169,18 @@ $ogv_brand_color: #458B49;
 
 // Every image in YAG
 .galerie-image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 15px auto;
+}
+
+.news-image {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 15px;
 }
 
 .galerie-grid-row {
