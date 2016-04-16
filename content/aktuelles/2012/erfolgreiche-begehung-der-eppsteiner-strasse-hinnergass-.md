@@ -1,0 +1,25 @@
++++
+date = "2012-08-24T15:27:00.001+02:00"
+title = 'Erfolgreiche Begehung der Eppsteiner Straße (Hinnergass)'
+galerie = '2012/begehung_der_eppsteiner_strasse'
+galerie_bild = '20120812_22.jpg'
+
++++
+
+Es war einfach wieder schön zu sehen, wie viele Menschen sich für unsere Ortsgeschichte interessieren. Auf dem Brunnen am Zimmerplatz begrüßte die Vorsitzende die Menge herzlich und freute sich auch über die Teilnahme des ältesten Mitglieds des Vereins, ebenfalls in der Eppsteiner Straße wohnhaft.
+
+Zuerst konnten wir die frühere Gaststätte " Zur Krone" besichtigen, die die jetzigen Eigentümer liebevoll restaurieren. Die alte Eingangstür ist genauso noch vorhanden wie der alte Originalfußboden. Familie Volp hat und noch Reste von alten Wandmalereien zeigen können und Baupläne für Erweiterungs-/Umbauten, die aber nie verwirklicht wurden. Einige Besucher schwelgten in alten Erinnerungen, was sie früher hier so erlebt hatten und wer alles dabei war. Wo die Theke stand und dass früher zum Fenster zum Brunnen Eis verkauft wurde. Auch die Presse war begeistert.
+
+Unser Ehrenmitglied Hans Jungels hat zu der Historie erzählt und hat außerdem die Moderation bei der weiteren Begehung übernommen. Die nächste Anlaufstelle war das frühere Ladengeschäft der Familie Maurer, in dem zuletzt eine Bäckerei war. Der Schwiegersohn der früheren Besitzer und gleichzeitig Vorsitzender des Nachbarvereins aus Bremthal - Richard Kaus - berichtete im Hof des Anwesens, dass eine Bibel dem Opa der Ehefrau im Krieg das Leben gerettet hatte. Dieser hatte die Bibel in der linken Brusttasche, als auf ihn geschossen wurde. Das Einschußloch war deutlich zu sehen. Durchschlug jedoch nicht alle Blätter.
+
+Beim nächsten Haus, einem noch vorhandenen Bauernhof, konnte wieder eine interessanteBegebenheit erwähnt werden. Engelbert Bouillon berichtete, dass sein Opa an dem Begehungstag 100 Jahre alt geworden wäre und aus diesem Haus stammt.
+
+Wo heute die neuen Häuser, die zurückgesetzt liegen, stehen, stand früher ein altes kleines Haus, welches mehrfach auf der Bilderwand im Hof, in dem die Bewirtung erfolgte, zu sehen war.
+
+Dann kam man zu der Garage von Hans Gräber, der uns Raritäten früherer Werkzeuge und Haushaltsgeräte und Gartengeräte zeigte. Was jedoch eine allgemeine Verwunderung auslöste war ein Kitzel. Sowas kennt man heute nicht mehr. Nur Hans Jungels und Hans Gräber konnten erklären, wozu diese gedacht waren. Früher legte man sich diese auf den Kopf um Eimer und schwere Sachen tragen zu können und die Hände frei hatte. Pläne einer alten Puddelkaut, eine signierte Bibel und allerlei Bilder und alte Dokumente konnten bestaunt werden. Und plötzlich fiel auch einigen noch eine nette Geschichte von früher ein.
+
+Zu früheren Zeiten endete die Hinnergass, wie die Eppsteiner Straße früher genannt wurde, am Haus Ecke Gartenstraße, die es früher auch noch nicht gab. Zu jedem nachfolgendem Haus konnte Hans Jungels berichten, wann es gebaut wurde. Zuerst lieferte er die Erklärungen zu den Häusern auf der rechten Seite, beginnend am Zimmerplatz bis zur Ecke Zeilring. Auf dem Rückweg zur Futterstelle und Tränke gab es die Erläuterungen zu den Häusern der anderen Straßenseite. Erstaunen löste die Information aus, dass in einem Haus früher die Schule war und Unterricht erteilt wurde. Die alten Hirtenhäuser gibt es heute noch und sehen auch noch wie früher aus. Einfach historisch. Nicht weit daneben befindet sich das Anwesen in dem August Bebel früher mal zu Gast war. Ein Schild am Haus weist heute noch hierauf hin. Der Besitzer des Anwesens - Herr Schrott - hatte freundlicherweise sein Einverständnis für die Anbringung erteilt. Nachdem man seinen Wissendurst gestillt hatte eilte man zu dem Imbiss und dem guten selbst gekelterten Apfelwein im Anwesen Hof/Haus Nr. 3. Dort saßen viele gemütlich bei alten und neuen Geschichten bis in die Abendstunden. Besondere Begeisterung lösten auch wieder die von der Vorsitzenden gestalteten Stellwände mit den schönen alten Bildern aus. Hier rätselte so mancher wieder, wer das wohl sei auf diesem oder jenem Bild. Und jeder freute sich, wenn er etwas oder jemanden erkannte. Dies zeigt, dass wir mit unserer Idee auf dem richtigen Weg waren/sind. Auch einige Spaziergänger/Wanderer aus umliegenden Ortschaften konnten eingefangen werden und erfreuten sich der Gemütlichkeit.
+
+Wir möchten uns deswegen wieder ganz herzlich bei allen bedanken, die uns Bilder zur Verfügung stellten oder ihre Anwesen für uns öffneten. Vielen,vielen Dank für Ihre Unterstützung. Ohne diese Hilfsbereitschaft wären diese Aktionen nicht möglich und auch nicht so ein Erfolg. Danke auch besonders an Herrn Ernst, der uns "großzügigerweise in dem sein Hof gelasse" hat, wie des so schon heißt. Im nächsten Jahr flanieren wir auf der Bezirksstraße. Und alle, die und jetzt schon alte Bilder geben können oder alte Pläne haben oder uns erlauben, dass wir Ihre Höfe/Häuser betreten dürfen, können sich gerne schon bei der Vorsitzenden melden. Dann kommen wir nicht so in Zeitdruck. Bis zum nächsten Mal. Wir freuen uns auf Ihr Kommen. Bilder gibt es wie immer in der Galerie.
+
+      

@@ -1,0 +1,11 @@
++++
+date = "2010-10-31T14:58:00.001+02:00"
+title = 'Dickworzschnitzen 2010 - Der Bericht'
+galerie = '2010/dickworzschnitzen_2010'
+galerie_bild = '20101023_16.jpg'
+
++++
+
+Pünktlich um 14:00 h ging's los. Die ersten Kinder konnten es gar nicht erwarten, endlich wieder ihren Dickworzkopp zu schnitzen. Wir haben schon treue Anhänger, die eifrig die Rüben aushöhlen und gerne auch 2 oder 3 gestalten. Dieses Jahr war es ja superkalt, aber das hat die Kinder nicht von dem Schnitzen und Schneiden abgehalten. Die Polsterkissen und Decken wurden auf die Bänke gelegt, damit man keinen kalten Po bekam. Zum Aufwärmen gab es heißen Orangensaft und Würstchen. Und wer mochte bekam Kaffee. Lena und Sabrina sind schon das 3. Mal dabei und auch Ann-Cathrin und Annalena sind begeisterte Schnitzer und freuen sich, wenn sie ihre Dickworzköppe dann mitnehmen und vor die Haustür stellen können. Das ist einfach etwas anderes. Das hat nicht jeder. Dieses Jahr kam man sogar von Bremthal, um den alten Brauch kennen zu lernen. Jasmin hat einen amerikanischen Papa und der konnte uns auch einige Geheimnisse zu Halloween verraten. Die beiden erfreuten sich aber auch an unserem Brauch. Nächstes Jahr möchten sie wieder dabei sein. Elena brachte ihre Schwester mit und diese ließ sich von Onkel Matze unterstützen, wenn der Kopp zu fest war und man mit dem Lochstecher einfach nicht durch kam. Auch die Eppsteiner Zeitung würdigte dieses ungewöhnliche Ereignis und machte schöne Bilder der Kinder und der schönen und so verschieden gestalteten Köppen. Einer hatte die ausgehöhlten Augenringe in den Deckel als Haare eingesetzt und der nächste hat eine Kippe in den Mund gesteckt. Durch die Wurzelenden, die immer ganz verschieden mehr oder weniger dran sind, bekommt jede Rübe dann ihren eigenen Flair.Einfach scheeee! Wir freuen uns zusammen mit den Kindern auf das nächste Jahr. Wir würden diese Rüben ja gerne selbst anbauen, müssten aber dafür jemanden finden, der das übernimmt. Freiwillige vor! Wer hat Zeit und Lust?Die Bilder sind wieder wie üblich in der Galerie zu finden.
+
+      

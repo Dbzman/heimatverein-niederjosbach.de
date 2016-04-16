@@ -5,17 +5,25 @@
 <h1>{{ .Title }}</h1>
 <div class="row">
   <div class="col-xs-12">
-    {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
-      <a href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" />
-      </a>
-    {{ end }}  
+    {{ $newsGalleryImage := .Params.galerie_bild }}
+    {{ if $galerie }}
+      {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
+        {{ if $newsGalleryImage }}
+          <a href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+        {{ else }}
+          <a href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+        {{ end }}  
+      {{ end }}
+    {{ end }}    
     {{ .Content }}
-
-    {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
-      <a class="btn btn-primary" href="{{ .Permalink }}">
-        Zur Galerie <strong>"{{ .Title }}"</strong>
-      </a>
-    {{ end }}  
+    
+    {{ if $galerie }}
+      {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
+        <a class="btn btn-primary" href="{{ .Permalink }}">
+          Zur Galerie <strong>"{{ .Title }}"</strong>
+        </a>
+      {{ end }}
+    {{ end }}    
   </div>
 </div>
 

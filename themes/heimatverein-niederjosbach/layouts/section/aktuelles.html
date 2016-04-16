@@ -5,23 +5,36 @@
   <div class="list-item">
     {{ if isset .Params "galerie" }}
       {{ $galerie := .Params.galerie }} 
+
+
       <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
       <div class="row">
         <div class="col-sm-12">
           {{ $newsLink := .Permalink }}
-          {{ $newsSummary := .Summary }}
+          {{ $newsContent := .Content }}
+          {{ $newsGalleryImage := .Params.galerie_bild }}
+
           {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
-            <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" />
-            </a>
-            {{ $newsSummary }}
+            {{ if $newsGalleryImage }}
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+            {{ else }}
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+            {{ end}}  
+            {{ $newsContent }}
           {{ end }} 
         </div>
       </div>
       <div class="item-date">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
     {{ else }}
-     TODO
+      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      <div class="row">
+        <div class="col-sm-12">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="item-date">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+      <hr>
     {{ end }}
-    <hr>
   </div>
   
 {{ end }}

@@ -1,0 +1,18 @@
++++
+date = "2010-10-09T22:35:00.001+02:00"
+title = 'So war die Obergassenbegehung'
+
+
++++
+
+Dem trüben Wetter trotzend fand bei reger Teilnahme die Obergassenbegehung statt.Deswegen allen, die sich von dem Regen nicht abschrecken ließen , herzlichen Dank fürIhr kommen. Bedanken möchten wir uns auch bei allen, die uns Bilder, Höfe, Garagen, Toiletten, Unterschlupf, Äppelwoi und ihre wertvolle Zeit und Arbeitskraft zur Verfügung stellten. Danke, danke, danke! Denn ohne diese Unterstützung könnten wir dies sonst nicht bieten. Die ausgeliehenen Bilder kommen auf dem Weg wie sie zu uns gekommen sind auch wieder zurück. Aber etwas Geduld ist doch notwendig, weil dies nur abends oder am Wochenende erfolgen kann.
+
+Tja, wie war es. Nachdem die Presse etwas zu früh erschien, weil sie auch schon eineFalsche Anfangszeit in der Zeitung druckten, obwohl die richtige mitgeteilt worden war, wurde erst mal die Worscht verteilt. Alternativ gab es wieder Spundekäs mit Laugenstangen. Ungeduldig warteten die Wissbegierigen. Pünktlich um 13.45 h ging's los.Zuerst wurde die Obergasse 1 (jetzt eine Bank) vorgestellt. Hier gab es früher einKolonialwarengeschäft, später eine Bäckerei und bis ca. 1970 einen Lebensmittelladen.Der Eingang war direkt in der Hausecke und wurde später verlegt. Damals gab es dort die ersten Süßigkeiten in Form von kleinen Kirschlutschern. Anneliese stand immer freundlich hinter der Theke. Gegenüber war früher eine Schmiede, die die letzt betriebene war. Hiervon gibt es noch die alte Schürze, die der Schmiedemeister zum Schutz vor dem Feuer trug. Hier hat es am Ende vom Krieg gebrannt. Im Scheunentor sind heute noch die schwarzen Stellen hiervon zu sehen. Liebevoll ist der Innenhof heute gestaltet. Auch das alte Schmiedewerkzeug ist noch vorhanden.
+
+Fotos davon gibt es auch, die wir auch noch zeigen. Die nächste Station war das Anwesen der Familie Stefan Hebauf, der alle seine Schätze zeigte und seine Tore weit öffnete. Sogar den früheren Kuhstall, in dem noch die Ringe an die die Kühe und Ochsen festgebunden wurden, zu sehen waren, hat er extra neu verfugt. Sonst hätten wir sogar noch den uralten Lehmboden, der aber auch sehr schief war, bewundern können. In dem Hof konnte man auch noch das ururalte, noch im Originalzustand vorhandeneToilettenhäuschen, sehen, früher "Abbe" genannt. In der Scheune, in der er auch noch keltert, konnte man auch alte Bilder und die alten Baupläne besichtigen. Der Andrang war groß um sich die seltenen Dinge zu beschauen. Sogar altes Ackergerät stand da.
+
+Der frühere Bauer Schaao - Hans Jungels - konnte es sogar noch erklären. Er als Urgusbacher hat zu jedem Anwesen etwas gewusst und erzählt. Auch Altbauer Theo Jungels hat seine Erinnerungen preisgegeben.
+
+Der nächste Punkt war das Anwesen, in dem früher unser alter WassermeisterHaag lebte. Dort konnte man die Frühere Gestaltung der Häuser und HöfeEinsehen. Auch die alte Werkstatt ist noch erhalten, war aber leider nicht zuBesichtigen. Gegenüber ist die noch einzige Hofreite mit großem Scheunentor zuSehen. Wir marschierten dann am Josbach hoch und hatten einen Einblick ins frühere"Eck". Hier machten wir dann auch wieder Halt in dem ältesten Haus von Niederjosbach, welches früher eine Gaststätte, dann eine Schmiede und sehr viel später ein Bauernhof war. Die Eigentümer haben es sich deswegen nicht nehmen lassen, wieder das Schmiedehandwerk vorzuführen. Ganz tolle Nägel für große Scheunentore haben sie hergestellt. Das Publikum konnte sich gar nicht sattsehen.
+
+      

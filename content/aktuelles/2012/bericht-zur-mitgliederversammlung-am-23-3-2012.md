@@ -1,0 +1,10 @@
++++
+date = "2012-05-20T12:28:00.001+02:00"
+title = 'Bericht zur Mitgliederversammlung am 23.3.2012'
+
+
++++
+
+Bei der gut besuchten Mitgliederversammlung wurde ein neuer Beisitzer, ein neuer Revisor sowie eine neue Ersatzrevisorin gewählt. Neuer Beisitzer ist Edwin Weil, der für 3 Jahre einstimmig gewählt wurde. Genauso eindeutig wurden Herr Stefan Abs als Revisor und Frau Claudia Benninghoff als Ersatzrevisorin - beide für 2 Jahre - gewählt. Dem Vorstand und dem Kassenverwalter wurde Entlastung erteilt, nachdem die aktuellen Berichte vorgetragen waren und die Kassenstände mitgeteilt wurden. Unser Mitglied Johann Franz Jungels wurde aufgrund seiner unermüdlichen Recherchen und Vorträge bei allen bisherigen Aktionen einstimmig zum Ehrenmitglied gewählt. Simon van Staveren wurde auch besonders belobigt, weil er immer alle Änderungen in Gusbach mit seiner Kamera festhält und dem Heimatverein zur Verfügung stellt.Zahlreiche Diskussionen löste aber der sich immer noch zur Restauration befindliche Stallbesenmann aus. Eigentlich war schon im letzten Jahr zugesichert worden, die Mängel zu beheben und die Figur bis Ostern wieder auf seinen Stammplatz zu platzieren. Die Firma Göttnauer hatte sich bereit erklärt, dann den erforderlichen Anstrich vorzunehmen. Es fanden mehrere Gespräche mit verschiedenen Beteiligten statt, bei denen immer zuletzt die Vereinbarung war, die vorhandenen Mängel zu beheben, was immer noch nicht erfolgt ist. Da es hierbei auch um weitere Kosten geht, die vom Vereinsring nicht genehmigt waren und die Vereinsringsitzung vom Oktober in den Januar verlegt wurde, konnte hierzu noch keine aktuelle Entscheidung getroffen werden.Zum Schluss wurden die Termine für das Jahr bekannt gegeben, wobei es sein kann, dass diese für die vorgesehen Stammtische eventuell nochmals angepasst werden müssen. Dies wird aber dann zeitnah auf der Internetseite und im Eppsteiner Blättchen bekannt gemacht. Anschließend saß man noch gemütlich zum Gedankenaustausch zusammen.
+
+      
