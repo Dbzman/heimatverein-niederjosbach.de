@@ -29,7 +29,7 @@ $default-padding: 15px;
   background-color: #fff;
   @include box-shadow(#333 0px 0px 5px);
   margin-top: 15px;
-  
+
   @media (min-width: 769px) { 
     margin: 15px;
   }
@@ -175,8 +175,8 @@ $ogv_brand_color: #458B49;
 // Every image in YAG
 .galerie-image {
   object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   margin: 0 auto 15px auto;
 }
 
