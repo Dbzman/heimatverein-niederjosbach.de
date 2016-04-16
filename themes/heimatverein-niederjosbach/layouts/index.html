@@ -7,11 +7,13 @@
         {{ .Content }}
       </div>
       <div class="col-sm-4">
-        <h1>Aktuelles</h1>
-        <ul>
-          <a href="#"><li>Termine 2016</li></a>
-          <a href="#"><li>Test</li></a>
-        </ul>
+
+      <h1>Aktuelles</h1>
+      <ul>
+      {{ range first 5 (where .Site.Pages "Section" "aktuelles") }}
+        <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
+      {{ end }}  
+      </ul>
       </div>
   </div>
 {{ end }}
