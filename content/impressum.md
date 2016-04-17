@@ -21,3 +21,6 @@ Vertretungsberechtigter Vorstand: 2 Vorstandsmitglieder
 Für die widerrechtliche Verwendung von E-Mail-Adressen dieser Domain übernimmt der Herausgeber ausdrücklich keine Verantwortung. Der Herausgeber weist darauf hin, dass für Empfänger von unverschlüsselten E-Mails nicht grundsätzlich ausgeschlossen werden kann, dass der Domainname für die missbräuchliche Versendung von Spam-Mails genutzt werden könnte.
 
 Diese Website benutzt Piwik, eine Open-Source-Software zur statistischen Auswertung der Besucherzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.
+
+<iframe style="border: 0; height: 200px; width: 600px;" src="http://stats.ml-design.eu/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
+
