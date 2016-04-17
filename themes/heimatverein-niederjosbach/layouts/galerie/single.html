@@ -5,7 +5,6 @@
 {{ $files := readDir $dir }}
 
 <h1>{{ .Title }}</h1>
-<a href="{{.Site.BaseURL}}/{{.Section}}">Zurück zur Galerie</a>
 {{ $cols := 4}}
 {{ $len := len $files }}
 {{$extraRequired := mod (sub $cols (mod $len $cols)) $cols }}
