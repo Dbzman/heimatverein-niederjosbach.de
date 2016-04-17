@@ -9,12 +9,13 @@
       </div>
       <div class="col-sm-4">
 
-      <h1>Aktuelles</h1>
-      <ul>
-      {{ range first 5 (where .Site.Pages "Section" "aktuelles") }}
-        <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
-      {{ end }}  
-      </ul>
+        <h1>Aktuelles</h1>
+        <div class="list-group">
+          {{ range first 5 (where .Site.Pages "Section" "aktuelles") }}
+          <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+          {{ end }} 
+        </div>
+
       </div>
   </div>
 {{ end }}
