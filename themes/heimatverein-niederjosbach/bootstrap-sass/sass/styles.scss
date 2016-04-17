@@ -137,6 +137,11 @@ body {
 
 .carousel-indicators {
   bottom: -10px !important;
+
+  li {
+    height: 12px;
+    width: 12px;
+  }
 }
 
 @media (max-width: 768px) { 
