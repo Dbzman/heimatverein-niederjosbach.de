@@ -1,6 +1,7 @@
 +++
 date = "2016-04-02T00:32:13+02:00"
 title = "Home"
+wechselbilder = 'herbst_2014'
 
 +++
 

@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ range where .Data.Pages "Title" "Home" }}
+{{ partial "carousel.html" . }}
   <div class="row">
       <div class="col-sm-8">
       

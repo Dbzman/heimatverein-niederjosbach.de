@@ -1,0 +1,38 @@
+
+
+{{ $wechselbilderPath := .Params.wechselbilder }}
+{{ $dir := (print "galerie/wechselbilder/" $wechselbilderPath) }}
+{{ $files := readDir $dir }}
+
+<div id="carousel-{{ $wechselbilderPath }}" class="carousel slide" data-interval="10000" data-ride="carousel">
+  
+  <ol class="carousel-indicators">
+    {{ range $key, $value := $files }}
+        <li data-target="#carousel-{{ $wechselbilderPath }}" data-slide-to="{{ $key }}" {{ if eq $key 0 }}class="active"{{ end }}></li>
+    {{ end }}
+  </ol>
+
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    {{ range $key, $value := $files }}
+      <div class="item carousel-item-type carousel-item-type-textandimage {{ if eq $key 0 }}active{{ end }}" data-itemno="{{ $key }}" style="
+                        background-color: #333333;
+                        ">
+            <div class="carousel-image" style="background-image: url(http://galerie.heimatverein-niederjosbach.de/wechselbilder/{{ $wechselbilderPath }}/{{ .Name }})" alt="{{ .Name }});"></div>
+                 
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-{{ $wechselbilderPath }}" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-{{ $wechselbilderPath }}" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
