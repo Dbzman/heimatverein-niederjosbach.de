@@ -3,6 +3,9 @@ date = "2014-12-29T14:55:00.001+02:00"
 title = 'Der Schnee ist da!'
 galerie = '2014/winter_2014'
 galerie_bild = '20141227_42.jpg'
+aliases = [
+  "aktuelles/beitrag/der-schnee-ist-da/"
+]
 
 +++
 

@@ -3,6 +3,9 @@ date = "2015-07-12T21:04:00.001+02:00"
 title = 'Bericht zum Sommerfest 2015'
 galerie = '2015/sommerfest_2015'
 galerie_bild = '20150628_09.jpg'
+aliases = [
+  "aktuelles/beitrag/bericht-zum-sommerfest-2015/"
+]
 
 +++
 

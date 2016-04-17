@@ -1,7 +1,9 @@
 +++
 date = "2016-02-14T20:56:00.001+02:00"
 title = 'Termine 2016'
-
+aliases = [
+  "aktuelles/beitrag/termine-2016/"
+]
 
 +++
 

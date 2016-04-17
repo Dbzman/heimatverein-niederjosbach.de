@@ -1,7 +1,9 @@
 +++
 date = "2015-12-20T00:31:00.001+02:00"
 title = 'Neue Rubrik "Gedichte & Erzählungen"'
-
+aliases = [
+  "aktuelles/beitrag/neue-rubrik-gedichte-erzaehlungen/"
+]
 
 +++
 

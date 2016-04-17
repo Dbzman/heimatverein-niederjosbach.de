@@ -2,6 +2,9 @@
 date = "2015-11-08T21:19:00.001+02:00"
 title = 'Bericht zum Dickworzschnitzen 2015'
 galerie = '2015/dickworzschnitzen_2015'
+aliases = [
+  "aktuelles/beitrag/bericht-zum-dickworzschnitzen-2015/"
+]
 
 +++
 
