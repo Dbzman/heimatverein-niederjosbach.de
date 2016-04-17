@@ -49,6 +49,13 @@ $default-padding: 15px;
   padding-right: 15px;
 }
 
+#footer {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: $gray-lighter 3px dashed;
+  padding-bottom: 15px;
+}
+
 // .carousel-caption {
 //  text-align: left; // left align to column start
 //  padding-left: 15px; // .. but a bit of padding
