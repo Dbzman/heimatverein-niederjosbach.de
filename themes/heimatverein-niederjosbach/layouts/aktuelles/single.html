@@ -14,7 +14,10 @@
           <a class="swipebox" href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
         {{ end }}  
       {{ end }}
-    {{ end }}    
+    {{ end }}
+    {{ if isset .Params "bild" }}
+        <a class="swipebox" href="http://files.heimatverein-niederjosbach.de//{{ .Params.bild }}"><img class="thumbnail img-responsive news-image" src="http://files.heimatverein-niederjosbach.de//{{ .Params.thumbnail }}" /></a>
+      {{ end }}    
     {{ .Content }}
     
     {{ if $galerie }}

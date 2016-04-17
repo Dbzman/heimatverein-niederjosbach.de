@@ -1,7 +1,8 @@
 +++
 date = "2015-06-14T22:44:00.001+02:00"
 title = 'Sommerfest am 28.06. ab 11 h'
-
+bild = 'plakate/sommerfest_2015.jpg'
+thumbnail = 'plakate/sommerfest_2015_thumb.jpg'
 
 +++
 

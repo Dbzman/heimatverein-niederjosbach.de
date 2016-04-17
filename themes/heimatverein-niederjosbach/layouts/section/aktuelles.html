@@ -22,14 +22,17 @@
               <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
             {{ end}}  
             {{ $newsContent }}
-          {{ end }} 
+          {{ end }}
         </div>
       </div>
       <div class="item-date">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
     {{ else }}
-      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
       <div class="row">
         <div class="col-sm-12">
+          {{ if isset .Params "thumbnail" }}
+            <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="http://files.heimatverein-niederjosbach.de//{{ .Params.thumbnail }}" /></a>
+          {{ end }}
           {{ .Content }}
         </div>
       </div>
@@ -39,5 +42,7 @@
   </div>
   
 {{ end }}
+
+{{ template "_internal/pagination.html" . }}
 
 {{ partial "footer.html" . }}

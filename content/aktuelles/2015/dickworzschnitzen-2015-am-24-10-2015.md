@@ -1,7 +1,8 @@
 +++
 date = "2015-10-11T12:19:00.001+02:00"
 title = 'Dickworzschnitzen 2015 am 24.10.2015'
-
+bild = 'plakate/dickworzschnitzen_2015.jpg'
+thumbnail = 'plakate/dickworzschnitzen_2015_thumb.jpg'
 
 +++
 

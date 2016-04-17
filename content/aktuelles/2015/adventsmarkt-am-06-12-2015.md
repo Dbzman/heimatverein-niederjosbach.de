@@ -1,7 +1,8 @@
 +++
 date = "2015-12-04T23:01:00.001+02:00"
 title = 'Adventsmarkt am 06.12.2015'
-
+bild = 'plakate/adventsmarkt_2015.png'
+thumbnail = 'plakate/adventsmarkt_2015_thumb.png'
 
 +++
 
