@@ -7,8 +7,8 @@
     {{ if isset .Params "galerie" }}
       {{ $galerie := .Params.galerie }} 
 
-
       <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+      {{ partial "news_date.html" . }}
       <div class="row">
         <div class="col-sm-12">
           {{ $newsLink := .Permalink }}
@@ -25,9 +25,9 @@
           {{ end }}
         </div>
       </div>
-      <div class="item-date">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
     {{ else }}
     <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    {{ partial "news_date.html" . }}
       <div class="row">
         <div class="col-sm-12">
           {{ if isset .Params "thumbnail" }}
@@ -36,7 +36,6 @@
           {{ .Content }}
         </div>
       </div>
-      <div class="item-date">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
       <hr>
     {{ end }}
   </div>
