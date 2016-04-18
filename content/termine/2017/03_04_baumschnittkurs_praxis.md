@@ -4,6 +4,7 @@ title = 'Baumschnittkurs Praxis'
 ganztaegig = 'false'
 verein = 'Obst- und Gartenbauverein'
 ort = 'Streuobstwiese, Niederjosbach'
+draft = 'true'
 
 +++
 

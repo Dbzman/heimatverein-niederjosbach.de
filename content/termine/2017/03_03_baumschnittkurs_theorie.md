@@ -4,6 +4,7 @@ title = 'Baumschnittkurs Theorie'
 ganztaegig = 'false'
 verein = 'Obst- und Gartenbauverein'
 ort = 'Feuerwehr, Niederjosbach'
+draft = 'true'
 
 +++
 
