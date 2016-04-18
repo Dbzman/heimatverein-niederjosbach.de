@@ -1,6 +1,6 @@
 +++
 date = "2009-10-20T10:59:00.001+02:00"
-title = 'Stammtisch am Freitag den 15.04.'
+title = 'Stammtisch am Freitag'
 
 
 +++
