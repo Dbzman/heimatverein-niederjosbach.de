@@ -1,0 +1,23 @@
+<div class="col-lg-6">
+  <form action="/system-cgi/formmailc.pl" method="POST" accept-charset="ISO-8859-1">
+    <input type=hidden name="recipient" value="vorsitzende@heimatverein-niederjosbach.de">
+    <div class="form-group">
+     <label for="realname">Name</label>
+     <input class="form-control" type=text name="realname" size="20" placeholder="Ihr Name">
+    </div>
+     <div class="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" type=text name="email" size="20" placeholder="Ihre Email Adresse">
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Betreff</label>
+      <input class="form-control" type=text name="subject" size="20" placeholder="Betreff">
+    </div>
+    <div class="form-group">
+      <label for="subject">Nachricht</label>
+      <textarea class="form-control" rows="2" name="message" cols="20"></textarea><br>
+    </div>
+    <input type="submit" class="btn btn-default" placeholder="Weiter" name="Submit">
+  </form> 
+</div>
