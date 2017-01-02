@@ -1,3 +1,0 @@
-select album.name, album.date, item.filename as galleryImage
-from `tx_yag_domain_model_album` album
-inner join `tx_yag_domain_model_item` item on album.`thumb` = item.uid
