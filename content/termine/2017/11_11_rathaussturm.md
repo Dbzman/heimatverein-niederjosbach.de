@@ -2,7 +2,7 @@
 date = "2017-11-11T17:11:00.000+02:00"
 title = 'Rathaussturm'
 verein = 'GCC'
-ort = 'Vereinssaal'
+ort = 'Vereinssaal, Niederjosbach'
 
 +++
 

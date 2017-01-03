@@ -1,8 +1,8 @@
 +++
 date = "2017-02-11T19:11:00.000+02:00"
-title = '1. Sitzung'
+title = '1. Fastnachtsitzung'
 verein = 'GCC'
-ort = 'Vereinssaal'
+ort = 'Vereinssaal, Niederjosbach'
 
 +++
 
