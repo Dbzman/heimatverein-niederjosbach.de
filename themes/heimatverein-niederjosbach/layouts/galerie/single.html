@@ -5,22 +5,33 @@
 {{ $files := readDir $dir }}
 
 <h1>{{ .Title }}</h1>
-{{ $cols := 4}}
-{{ $len := len $files }}
-{{$extraRequired := mod (sub $cols (mod $len $cols)) $cols }}
-{{ range $key, $value := $files }}
-  {{ $isLastElem := not (sub (sub $len 1) $key)}}
+<div id="lightgallery">
+  {{ $cols := 4}}
+  {{ $len := len $files }}
+  {{$extraRequired := mod (sub $cols (mod $len $cols)) $cols }}
+  {{ range $key, $value := $files }}
+    {{ $isLastElem := not (sub (sub $len 1) $key)}}
 
-  {{ if modBool $key $cols }}
-  <div class="row">
-  {{ end  }}
-    <div class="col-xs-6 col-md-4 col-lg-3">
-      <a rel="{{ $galeriePath }}" class="swipebox" href="http://galerie.heimatverein-niederjosbach.de/images/{{ $galeriePath }}/{{ .Name }}"><img class="thumbnail img-responsive galerie-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ $galeriePath }}/{{ .Name }}" /></a>
-    </div> 
-  {{ if or (modBool (add $key 1) $cols) $isLastElem }}
-  </div>
-  {{ end }}
-{{ end }}  
-{{ .Content }}
-
+    {{ if modBool $key $cols }}
+    <div class="row">
+    {{ end  }}
+      <div class="col-xs-6 col-md-4 col-lg-3">
+        <a rel="{{ $galeriePath }}" href="http://galerie.heimatverein-niederjosbach.de/images/{{ $galeriePath }}/{{ .Name }}"><img class="thumbnail img-responsive galerie-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ $galeriePath }}/{{ .Name }}" /></a>
+      </div> 
+    {{ if or (modBool (add $key 1) $cols) $isLastElem }}
+    </div>
+    {{ end }}
+  {{ end }}  
+  {{ .Content }}
+</div>
+<script type="text/javascript">
+      $(document).ready(function() {
+          $("#lightgallery").lightGallery({
+            thumbnail: true,
+            animateThumb: true,
+            selector: 'a',
+            share: false
+          }); 
+      });
+</script>
 {{ partial "footer.html" . }}
