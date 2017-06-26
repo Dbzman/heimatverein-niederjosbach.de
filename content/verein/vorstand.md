@@ -38,20 +38,21 @@ E-Mail: n.roesner@gmx.de
 
 **3 Beisitzer:**
 
-Ingeborg Heidenreich  
-Bezirksstraße 21  
-65817 Eppstein  
-Tel: 06198-1216  
-E-Mail: heideni@web.de  
-
 Engelbert Bouillon  
 Bahnstraße 24  
 65817 Eppstein  
 Tel: 06198-32193  
 E-Mail: engelbert-bouillon@t-online.de  
 
-Edwin Weil  
-Schulstr. 16a  
+Margriet van Staveren  
+Am Honigbaum 8  
 65817 Eppstein  
-Tel: 06198-2734  
-E-Mail: edwin.weil@t-online.de  
+Tel: 06198-8881  
+E-Mail: margriet.van.staveren@web.de  
+
+Werner Lehmann  
+Gabelsbornstraße 44a  
+65187 Wiesbaden  
+Tel: 0611-8901792  
+E-Mail: lehmannwerner@web.de  
+
