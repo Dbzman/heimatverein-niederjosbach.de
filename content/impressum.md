@@ -1,6 +1,6 @@
 +++
 date = "2016-04-02T00:50:45+02:00"
-title = "impressum"
+title = "Impressum"
 
 +++
 
