@@ -39,14 +39,14 @@ paginate = 12
     name = "Geschichte"
     weight = 0
     identifier = "geschichte"
-    url = "/files/niederjosbach/geschichte.pdf"
+    url = "https://heimatverein-niederjosbach.de/files/niederjosbach/geschichte.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
     name = "Geschichte der Schule"
     weight = 1
     identifier = "geschichte-der-schule"
-    url = "/files/niederjosbach/dorfschule_zu_niederjosbach.pdf"
+    url = "https://heimatverein-niederjosbach.de/files/niederjosbach/dorfschule_zu_niederjosbach.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
@@ -66,14 +66,14 @@ paginate = 12
     name = "Beitrittserklärung"
     weight = 2
     identifier = "beitrittserklaerung"
-    url = "/files/verein/beitrittserklaerung_nhgv.pdf"
+    url = "https://heimatverein-niederjosbach.de/files/verein/beitrittserklaerung_nhgv.pdf"
     parent = "verein"
 
 [[menu.main]]
     name = "Satzung"
     weight = 2
     identifier = "satzung"
-    url = "/files/verein/satzung.pdf"
+    url = "https://heimatverein-niederjosbach.de/files/verein/satzung.pdf"
     parent = "verein"
 
 [[menu.main]]
