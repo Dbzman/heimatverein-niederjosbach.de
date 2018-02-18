@@ -1,12 +1,9 @@
-baseurl = "http://heimatverein-niederjosbach.de/"
+baseurl = "https://heimatverein-niederjosbach.de/"
 languageCode = "de-de"
 title = "Niederjosbacher Heimat- und Geschichtsverein 2007 e.V."
 theme = "heimatverein-niederjosbach"
 pluralizelisttitles = "false"
 paginate = 12
-
-[params]
-  gallery_url="http://galerie.heimatverein-niederjosbach.de"
 
 [[menu.main]]
   name = "Home"
@@ -42,14 +39,14 @@ paginate = 12
     name = "Geschichte"
     weight = 0
     identifier = "geschichte"
-    url = "http://files.heimatverein-niederjosbach.de/niederjosbach/Geschichte.pdf"
+    url = "/files/niederjosbach/geschichte.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
     name = "Geschichte der Schule"
     weight = 1
     identifier = "geschichte-der-schule"
-    url = "http://files.heimatverein-niederjosbach.de/niederjosbach/Dorfschule_zu_Niederjosbach.pdf"
+    url = "/files/niederjosbach/dorfschule_zu_niederjosbach.pdf"
     parent = "niederjosbach"
 
 [[menu.main]]
@@ -69,14 +66,14 @@ paginate = 12
     name = "Beitrittserklärung"
     weight = 2
     identifier = "beitrittserklaerung"
-    url = "http://files.heimatverein-niederjosbach.de/verein/Beitrittserklaerung_HuGV.pdf"
+    url = "/files/verein/beitrittserklaerung_nhgv.pdf"
     parent = "verein"
 
 [[menu.main]]
     name = "Satzung"
     weight = 2
     identifier = "satzung"
-    url = "http://files.heimatverein-niederjosbach.de/verein/Satzung.pdf"
+    url = "/files/verein/satzung.pdf"
     parent = "verein"
 
 [[menu.main]]

@@ -1,7 +1,7 @@
 
 
 {{ $wechselbilderPath := .Params.wechselbilder }}
-{{ $dir := (print "galerie/wechselbilder/" $wechselbilderPath) }}
+{{ $dir := (print "static/galerie/wechselbilder/" $wechselbilderPath) }}
 {{ $files := readDir $dir }}
 
 <div id="carousel-{{ $wechselbilderPath }}" class="carousel slide" data-interval="5000" data-ride="carousel">
@@ -20,7 +20,7 @@
       <div class="item carousel-item-type carousel-item-type-textandimage {{ if eq $key 0 }}active{{ end }}" data-itemno="{{ $key }}" style="
                         background-color: #333333;
                         ">
-            <div class="carousel-image" style="background-image: url(http://galerie.heimatverein-niederjosbach.de/wechselbilder/{{ $wechselbilderPath }}/{{ .Name }})" alt="{{ .Name }});"></div>
+            <div class="carousel-image" style="background-image: url(/galerie/wechselbilder/{{ $wechselbilderPath }}/{{ .Name }})" alt="{{ .Name }});"></div>
                  
       </div>
     {{ end }}

@@ -10,14 +10,14 @@
     {{ if $galerie }}
       {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
         {{ if $newsGalleryImage }}
-          <a class="image-link" href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+          <a class="image-link" href="/galerie/images/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
         {{ else }}
-          <a class="image-link"  href="http://galerie.heimatverein-niederjosbach.de/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+          <a class="image-link"  href="/galerie/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
         {{ end }}  
       {{ end }}
     {{ end }}
     {{ if isset .Params "bild" }}
-        <a class="image-link"  href="http://files.heimatverein-niederjosbach.de//{{ .Params.bild }}"><img class="thumbnail img-responsive news-image" src="http://files.heimatverein-niederjosbach.de//{{ .Params.thumbnail }}" /></a>
+        <a class="image-link"  href="/files/{{ .Params.bild }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.thumbnail }}" /></a>
       {{ end }}    
     {{ .Content }}
     

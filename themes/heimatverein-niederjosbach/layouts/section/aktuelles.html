@@ -17,9 +17,9 @@
 
           {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
             {{ if $newsGalleryImage }}
-              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
             {{ else }}
-              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="http://galerie.heimatverein-niederjosbach.de/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
             {{ end}}  
             {{ $newsContent }}
           {{ end }}
@@ -31,7 +31,7 @@
       <div class="row">
         <div class="col-sm-12">
           {{ if isset .Params "thumbnail" }}
-            <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="http://files.heimatverein-niederjosbach.de//{{ .Params.thumbnail }}" /></a>
+            <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.thumbnail }}" /></a>
           {{ end }}
           {{ .Content }}
         </div>
