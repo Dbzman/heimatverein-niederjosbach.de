@@ -1,5 +1,7 @@
 .DS_STORE
 public/*
+static/galerie/*
+static/files/*
 **/.sass-cache
 galerie/*
 **/styles.css
