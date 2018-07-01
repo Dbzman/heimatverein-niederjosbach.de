@@ -89,7 +89,13 @@ paginate = 12
   url = "/kontakt"
 
 [[menu.main]]
-  name = "Impressum"
+  name = "Datenschutz"
   weight = -102
+  identifier = "datenschutz"
+  url = "/datenschutz"
+
+[[menu.main]]
+  name = "Impressum"
+  weight = -101
   identifier = "impressum"
   url = "/impressum"
