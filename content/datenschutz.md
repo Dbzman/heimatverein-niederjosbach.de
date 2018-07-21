@@ -61,21 +61,5 @@ Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt ausschlie
 
 Über das Kontaktformular übermittelte Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder keine Notwendigkeit der Datenspeicherung mehr besteht. Zwingende gesetzliche Bestimmungen - insbesondere Aufbewahrungsfristen - bleiben unberührt.
 
-### Matomo (ehemals Piwik)
-
-Unsere Website verwendet den Webanalysedienst Matomo. Matomo ist eine Open Source Lösung.
-
-Matomo verwendet "Cookies." Das sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert und die eine Analyse der Website-Benutzung ermöglichen. Mittels Cookie erzeugte Informationen über die Benutzung unserer Website werden auf unserem Server gespeichert. Vor der Speicherung erfolgt eine Anonymisierung Ihrer IP-Adresse.
-
-Cookies von Matomo verbleiben auf Ihrem Endgerät, bis Sie eine Löschung vornehmen.
-
-Das Setzen von Matomo-Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Als Betreiber dieser Website haben wir ein berechtigtes Interesse an der anonymisierten Analyse des Nutzerverhaltens, um sowohl unser Webangebot und ggf. auch Werbung zu optimieren.
-
-Es erfolgt keine Weitergabe der im Matomo-Cookie gespeicherten Informationen über die Benutzung dieser Website. Das Setzen von Cookies durch Ihren Webbrowser ist verhinderbar. Einige Funktionen unserer Website könnten dadurch jedoch eingeschränkt werden.
-
-Sie können hier die Speicherung und Nutzung Ihrer Daten deaktivieren. Ihr Browser setzt ein Opt-Out-Cookie, welches die Speicherung von Matomo Nutzungsdaten unterbindet. Wenn Sie Ihre Cookies löschen, wird auch das Matomo Opt-Out-Cookie entfernt. Bei einem erneuten Besuch unserer Website ist das Opt-Out-Cookie zur Unterbindung der Speicherung und Nutzung Ihrer Daten erneut zu setzen.
-
-<iframe style="border: 0; height: 200px; width: 600px;" src="http://stats.ml-design.eu/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
-
 <small>Quelle: Datenschutz-Konfigurator von [mein-datenschutzbeauftragter.de](http://www.mein-datenschutzbeauftragter.de)</small>
 
