@@ -1,6 +1,7 @@
 +++
 date = "2018-08-03T17:50:00+02:00"
 title = "Bericht zum Sommerfest 2018"
+draft = true
 
 +++
 
