@@ -6,7 +6,6 @@ title = "Vorstand"
 
 # Vorstand
 
-**Vorstand**  
 **Vorsitzende:**  
 Ulrike Jungels-Litzius  
 Zeilring 10  
