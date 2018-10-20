@@ -22,4 +22,4 @@ Die Schaubrauerei “Wäldches Bräu” demonstrierte, wie der Gerstensaft anges
 
 ## Programm
 ![775 Jahrfeier Programm](http://heimatverein-niederjosbach.de/files/inhalt/775-jahrfeier/775-Programm-Preview.jpg)  
-[Download Flyer](http://heimatverein-niederjosbach.de/files/inhalt/775-jahrfeier/775-Programm.jpg)
+[Download Programm](http://heimatverein-niederjosbach.de/files/inhalt/775-jahrfeier/775-Programm.jpg)
