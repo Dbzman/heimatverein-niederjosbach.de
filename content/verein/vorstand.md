@@ -9,7 +9,7 @@ title = "Vorstand"
 **Vorsitzende:**  
 Ulrike Jungels-Litzius  
 Zeilring 10  
-68817 Eppstein  
+65817 Eppstein  
 Tel: 06198-32860  
 E-Mail: vorsitzende@heimatverein-niederjosbach.de  
 
