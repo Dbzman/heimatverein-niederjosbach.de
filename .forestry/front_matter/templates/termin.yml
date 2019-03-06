@@ -3,6 +3,11 @@ label: Termin
 hide_body: false
 fields:
 - type: text
+  name: title
+  label: Veranstaltung
+  config:
+    required: true
+- type: text
   label: Verein
   name: verein
   config:
