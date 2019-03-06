@@ -7,6 +7,12 @@ fields:
   label: Veranstaltung
   config:
     required: true
+- type: datetime
+  name: date
+  label: Datum
+  config:
+    date_format: DD.MM.YYY
+    required: true
 - type: text
   label: Verein
   name: verein
@@ -17,10 +23,4 @@ fields:
   name: ort
   description: Ort/Treffpunkt
   config:
-    required: true
-- type: datetime
-  name: date
-  label: Datum
-  config:
-    date_format: DD.MM.YYY
     required: true
