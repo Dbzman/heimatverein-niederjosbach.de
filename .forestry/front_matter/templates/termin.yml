@@ -24,3 +24,5 @@ fields:
   description: Ort/Treffpunkt
   config:
     required: true
+pages:
+- content/termine/mitgliederversammlung.md
