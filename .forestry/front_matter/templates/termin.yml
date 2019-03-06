@@ -1,0 +1,15 @@
+---
+label: Termin
+hide_body: false
+fields:
+- type: text
+  label: Verein
+  name: verein
+  config:
+    required: true
+- type: text
+  label: Ort
+  name: ort
+  description: Ort/Treffpunkt
+  config:
+    required: true
