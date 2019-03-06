@@ -5,8 +5,18 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/aktuelles
-  label: Aktuelles
+  path: content/verein
+  label: Verein
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/niederjosbach
+  label: Niederjosbach
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/gedichte-erzaehlungen
+  label: Gedichte erzaehlungen
   create: all
   match: "**/*"
 - type: directory
@@ -20,18 +30,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/verein
-  label: Verein
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/niederjosbach
-  label: Niederjosbach
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/gedichte-erzaehlungen
-  label: Gedichte erzaehlungen
+  path: content/aktuelles
+  label: Aktuelles
   create: all
   match: "**/*"
 - type: directory
