@@ -18,3 +18,9 @@ fields:
   description: Ort/Treffpunkt
   config:
     required: true
+- type: datetime
+  name: date
+  label: Datum
+  config:
+    date_format: DD.MM.YYY
+    required: true
