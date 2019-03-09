@@ -20,13 +20,13 @@ Teilnehmer.
 **TOP  9:** Entlastung des Vorstandes  
 **TOP 10:** Bildung eines Wahlvorstandes  
 **TOP 11:** Vorstandswahl  
-**TOP 11:** Wahl einer/eines stellvertretenden Schriftführerin / Schriftführers   
-**TOP 12:** Wahl von Revisoren/innen / Kassenprüfer/innen  
-**TOP 13:** Übernahme der Versammlungsleitung durch die Vorsitzende  
-**TOP 14:** Anträge zur Mitgliederversammlung gemäß § 10 Abs 1. der Satzung  
-**TOP 15:** Termine 2019  
-**TOP 16:** Ehrungen  
-**TOP 17:** Verschiedenes.  
+**TOP 12:** Wahl einer/eines stellvertretenden Schriftführerin / Schriftführers   
+**TOP 13:** Wahl von Revisoren/innen / Kassenprüfer/innen  
+**TOP 14:** Übernahme der Versammlungsleitung durch die Vorsitzende  
+**TOP 15:** Anträge zur Mitgliederversammlung gemäß § 10 Abs 1. der Satzung  
+**TOP 16:** Termine 2019  
+**TOP 17:** Ehrungen  
+**TOP 18:** Verschiedenes.  
 
 Für den Vorstand  
 Ulrike Jungels-Litzius, Vorsitzende
