@@ -27,4 +27,5 @@ am **Freitag den 26.04.2019 um 19:30h** im **Kastanienhof Niederjosbach** (Kamin
 **TOP 17:** Verschiedenes.  
 
 Für den Vorstand  
-Ulrike Jungels-Litzius, Vorsitzende
+Ulrike Jungels-Litzius,  
+Vorsitzende
