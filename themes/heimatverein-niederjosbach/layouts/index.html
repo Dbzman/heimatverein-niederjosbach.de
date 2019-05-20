@@ -11,7 +11,7 @@
 
         <h1>Aktuelles</h1>
         <div class="list-group">
-          {{ range first 5 (where .Site.Pages "Section" "aktuelles") }}
+          {{ range first 5 (where .Site.RegularPages "Section" "aktuelles") }}
           <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
           {{ end }} 
         </div>
