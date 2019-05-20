@@ -1,2 +1,2 @@
 git pull
-./hugo --buildFuture
+NHGV_IMAGE_URL="https://heimatverein-niederjosbach.de/images" ./hugo --buildFuture
