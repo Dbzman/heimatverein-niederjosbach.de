@@ -1,2 +1,2 @@
 git pull
-./hugo
+./hugo --buildFuture

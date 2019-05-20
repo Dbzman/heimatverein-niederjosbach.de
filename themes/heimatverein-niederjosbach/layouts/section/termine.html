@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<h1>Termine der Niederjosbacher Vereine <small>für das Jahr {{ .Now.Year }}</small></h1>
+<h1>Termine der Niederjosbacher Vereine <small>für das Jahr {{ now.Format "2006" }}</small></h1>
 
 <section id="no-more-tables">
   <div class="table-responsive">
@@ -14,7 +14,7 @@
         </tr></thead>
         <tbody>
 
-        {{ range where .Data.Pages.ByDate ".Date" "ge" .Now }}
+        {{ range where .Data.Pages.ByDate ".Date" "ge" now }}
           <tr>
             <td data-title="Datum">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
             <td data-title="Beginnt">{{ .Date.Format "15:04" }}</td>
