@@ -13,6 +13,7 @@ fields:
   config:
     date_format: DD.MM.YYY
     required: true
+    time_format: h:mm A ZZ
 - type: text
   label: Verein
   name: verein
