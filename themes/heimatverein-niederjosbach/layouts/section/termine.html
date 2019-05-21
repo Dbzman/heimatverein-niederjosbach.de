@@ -6,34 +6,38 @@
   <div class="table-responsive">
     <table class="table table-hover">
       <thead>
-        <tr><th>Datum</th>
+        <tr>
+          <th>Datum</th>
           <th>Beginnt</th>
           <th>Veranstaltung</th>
           <th>Ort/Treffpunkt</th>
           <th>Verein</th>
         </tr></thead>
         <tbody>
-
-        {{ range where .Data.Pages.ByDate ".Date" "ge" now }}
+          
+          {{ range where .Data.Pages.ByDate ".Date" "ge" now }}
           <tr>
             <td data-title="Datum">{{ .Date.Day }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
-            <td data-title="Beginnt">{{ .Date.Format "15:04" }}</td>
-            <td data-title="Veranstaltung">{{ .Title }}</td>
-            <td data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
-            <td data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
-          </tr>
-        {{ end }}
-
-
-
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  
-
-  {{ partial "footer.html" . }}
-
-
-
+            <td data-title="Beginnt">
+              {{ if eq (.Date.Format "15:04") "00:00" }}
+                <span class="text-muted">n/a</span>
+              {{else }}
+                {{ .Date.Format "15:04" }}
+              {{end}}</td>
+              <td data-title="Veranstaltung">{{ .Title }}</td>
+              <td data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
+              <td data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    
+    
+    
+    {{ partial "footer.html" . }}
+    
+    
+    
+    
