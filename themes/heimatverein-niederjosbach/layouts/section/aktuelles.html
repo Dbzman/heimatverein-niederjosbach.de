@@ -2,6 +2,7 @@
 
 <h1>Aktuelles</h1>
 {{ template "_internal/pagination.html" . }}
+{{ $imagesUrl := getenv "NHGV_IMAGE_URL" }}
 {{ range .Paginator.Pages }}
   <div class="list-item">
     {{ if isset .Params "galerie" }}
@@ -17,9 +18,9 @@
 
           {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
             {{ if $newsGalleryImage }}
-              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="{{ $imagesUrl }}/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
             {{ else }}
-              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="{{ $imagesUrl }}/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
             {{ end}}  
             {{ $newsContent }}
           {{ end }}
