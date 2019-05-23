@@ -1,9 +1,8 @@
 <div class="col-lg-6">
-  <form action="/system-cgi/formmailc.pl" method="POST" accept-charset="ISO-8859-1">
-    <input type=hidden name="recipient" value="vorsitzende@heimatverein-niederjosbach.de">
+  <form name="contact" netlify>
     <div class="form-group">
-     <label for="realname">Name</label>
-     <input class="form-control" type=text name="realname" size="20" placeholder="Ihr Name">
+     <label for="name">Name</label>
+     <input class="form-control" type=text name="name" size="20" placeholder="Ihr Name">
     </div>
      <div class="form-group">
       <label for="email">Email</label>
@@ -18,6 +17,6 @@
       <label for="subject">Nachricht</label>
       <textarea class="form-control" rows="2" name="message" cols="20"></textarea><br>
     </div>
-    <input type="submit" class="btn btn-default" placeholder="Weiter" name="Submit">
+    <input type="submit" class="btn btn-default" name="Submit">
   </form> 
 </div>
