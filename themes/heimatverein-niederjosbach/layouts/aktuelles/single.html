@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
  
 {{ $galerie := .Params.galerie }}
-{{ $imagesUrl := getenv "NHGV_IMAGE_URL" }}
 
 <h1>{{ .Title }}</h1>
 <div class="row">
@@ -11,9 +10,9 @@
     {{ if $galerie }}
       {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
         {{ if $newsGalleryImage }}
-          <a class="image-link" href="{{ $imagesUrl }}/galerie/images/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}"><img class="thumbnail img-responsive news-image" src="{{ $imagesUrl }}/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}" /></a>
+          <a class="image-link" href="/images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}"><img class="thumbnail img-responsive news-image" src="/images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}?nf_resize=fit&w=520&h=347" /></a>
         {{ else }}
-          <a class="image-link"  href="{{ $imagesUrl }}/galerie/images/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="{{ $imagesUrl }}/galerie/thumbnails/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}" /></a>
+          <a class="image-link"  href="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}"><img class="thumbnail img-responsive news-image" src="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=520&h=347" /></a>
         {{ end }}  
       {{ end }}
     {{ end }}

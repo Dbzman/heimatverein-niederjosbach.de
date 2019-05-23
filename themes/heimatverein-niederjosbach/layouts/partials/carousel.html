@@ -1,8 +1,8 @@
 
 
 {{ $wechselbilderPath := .Params.wechselbilder }}
-{{ $files := .Params.images }}
-{{ $imagesUrl := getenv "NHGV_IMAGE_URL" }}
+{{ $dir := (print "static/images/wechselbilder/" $wechselbilderPath) }}
+{{ $files := readDir $dir }}
 
 <div id="carousel-{{ $wechselbilderPath }}" class="carousel slide" data-interval="5000" data-ride="carousel">
   
@@ -20,7 +20,7 @@
       <div class="item carousel-item-type carousel-item-type-textandimage {{ if eq $key 0 }}active{{ end }}" data-itemno="{{ $key }}" style="
                         background-color: #333333;
                         ">
-            <div class="carousel-image" style="background-image: url({{ $imagesUrl }}/wechselbilder/{{ $wechselbilderPath }}/{{ $value }})" alt="{{ $value }});"></div>
+            <div class="carousel-image" style="background-image: url(/images/wechselbilder/{{ $wechselbilderPath }}/{{ $value }})" alt="{{ $value }});"></div>
                  
       </div>
     {{ end }}

@@ -6,7 +6,6 @@
 {{ $cols := 4}}
 {{ $len := len .Paginator.Pages }}
 {{$extraRequired := mod (sub $cols (mod $len $cols)) $cols }}
-{{ $imagesUrl := getenv "NHGV_IMAGE_URL" }}
 {{ range $key, $value := .Paginator.Pages}}
   {{ $galeriePath := .Params.galerie_pfad }}
   {{ $galerieBild := .Params.galerie_bild }}
@@ -17,7 +16,7 @@
   {{ end }}
     <div class="col-xs-6 col-md-4 col-lg-3">
 
-      <a href="{{ .Permalink }}"><img class="thumbnail img-responsive galerie-image" src="{{ $imagesUrl }}/galerie/thumbnails/{{ $galeriePath }}/{{ $galerieBild }}" />
+      <a href="{{ .Permalink }}"><img class="thumbnail img-responsive galerie-image" src="/images/galerie/{{ $galeriePath }}/{{ $galerieBild }}?nf_resize=fit&w=520&h=347" />
       </a>
       <p class="text-center">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
