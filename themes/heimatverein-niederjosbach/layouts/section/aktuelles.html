@@ -30,7 +30,7 @@
     {{ partial "news_date.html" . }}
       <div class="row">
         <div class="col-sm-12">
-          {{ if isset .Params "thumbnail" }}
+          {{ if isset .Params "bild" }}
             <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.bild }}?nf_resize=fit&w=520&h=347" /></a>
           {{ end }}
           {{ .Content }}
