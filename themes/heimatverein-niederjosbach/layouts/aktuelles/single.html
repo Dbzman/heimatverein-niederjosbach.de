@@ -17,7 +17,7 @@
       {{ end }}
     {{ end }}
     {{ if isset .Params "bild" }}
-        <a class="image-link"  href="/files/{{ .Params.bild }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.thumbnail }}" /></a>
+        <a class="image-link"  href="/files/{{ .Params.bild }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.bild }}?nf_resize=fit&w=520&h=347" /></a>
       {{ end }}    
     {{ .Content }}
     

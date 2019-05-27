@@ -2,7 +2,6 @@
 date = "2017-08-06T13:52:51+02:00"
 title = "10 Jahre Heimat- und Geschichtsverein"
 bild = 'plakate/10_jahre_heimatverein.png'
-thumbnail = 'plakate/10_jahre_heimatverein_thumb.png'
 
 +++
 

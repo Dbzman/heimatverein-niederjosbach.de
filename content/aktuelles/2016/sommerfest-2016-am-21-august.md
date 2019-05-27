@@ -2,7 +2,6 @@
 date = "2016-08-06T21:58:36+02:00"
 title = "Sommerfest 2016 am 21. August"
 bild = 'plakate/sommerfest_2016.png'
-thumbnail = 'plakate/sommerfest_2016_thumb.png'
 
 +++
 

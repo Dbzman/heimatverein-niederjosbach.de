@@ -2,7 +2,6 @@
 date = "2016-10-16T20:09:59+02:00"
 title = "Dickworzschnitzen am Samstag"
 bild = 'plakate/dickworzschnitzen_2016.png'
-thumbnail = 'plakate/dickworzschnitzen_2016_thumb.png'
 
 +++
 
