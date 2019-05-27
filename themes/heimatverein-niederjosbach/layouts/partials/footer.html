@@ -4,5 +4,16 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/g/lightgallery,lg-autoplay,lg-fullscreen,lg-hash,lg-pager,lg-share,lg-thumbnail,lg-video,lg-zoom"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
