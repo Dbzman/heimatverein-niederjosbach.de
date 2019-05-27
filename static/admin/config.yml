@@ -12,7 +12,7 @@ collections:
     slug: "{{month}}_{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Veranstaltung", name: "title", widget: "string"}
-      - {label: "Event date", name: "date", format: "YYYY.MM.DD HH:mm", widget: "datetime"}
+      - {label: "Event date", name: "date", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", widget: "datetime"}
       - {label: "Verein", name: "verein", widget: "select", options: ["Heimatverein", "Katholische Kirche", "Gesangverein Taunusliebe", "Gesangverein Sängerlust", "Obst- und Gartenbauverein", "Freiwillige Feuerwehr", "Schützenverein Bremthal / Niederjosbach", "GCC", "TuS Niederjosbach", "Basarteam Niederjosbach", "Hobbykünstler", "Katholischer Kirchenchor", "Kirchengemeinde", "Vereinsring Niederjosbach", "KiTa Niederjosbach", "FFW Niederjosbach", "Vereinsring", "Vereinsring Njb.", "Vereinsring (insb. Sängerlust) + Ortsvorsteherin", "OGV Niederjosbach", "GCC 1981 e.V.", "Kath. Kirchenchor", "TuS Niederjosbach, Abtlg. Fußball", "Stadt + Kirchengemeinden", "TuS Niederjosbach, Abt. Fussball", "Förderverein St. Michael", "Stadt Eppstein+GCC"], default: ["Heimatverein"]}
       - {label: "Ort", name: "ort", widget: "string"}
 
