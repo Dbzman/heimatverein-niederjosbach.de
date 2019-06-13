@@ -1,6 +1,6 @@
 +++
 date = "{{ .Date }}"
 title = "{{ replace .Name '-' ' ' | title }}"
-verein = ''
-ort = ''
+galerie_pfad = ''
+galerie_bild = ''
 +++
