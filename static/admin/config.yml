@@ -6,8 +6,8 @@ public_folder: "/files/uploads" # The src attribute for uploaded media will begi
 
 collections:
   - name: "termine" # Used in routes, e.g., /admin/collections/blog
-    label: "Termine 2019" # Used in the UI
-    folder: "content/termine/2019" # The path to the folder where the documents are stored
+    label: "Termine 2020" # Used in the UI
+    folder: "content/termine/2020" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{month}}_{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -16,8 +16,8 @@ collections:
       - {label: "Verein", name: "verein", widget: "select", options: ["Heimatverein", "Katholische Kirche", "Gesangverein Taunusliebe", "Gesangverein Sängerlust", "Obst- und Gartenbauverein", "Freiwillige Feuerwehr", "Schützenverein Bremthal / Niederjosbach", "GCC", "TuS Niederjosbach", "Basarteam Niederjosbach", "Hobbykünstler", "Katholischer Kirchenchor", "Kirchengemeinde", "Vereinsring Niederjosbach", "KiTa Niederjosbach", "FFW Niederjosbach", "Vereinsring", "Vereinsring Njb.", "Vereinsring (insb. Sängerlust) + Ortsvorsteherin", "OGV Niederjosbach", "GCC 1981 e.V.", "Kath. Kirchenchor", "TuS Niederjosbach, Abtlg. Fußball", "Stadt + Kirchengemeinden", "TuS Niederjosbach, Abt. Fussball", "Förderverein St. Michael", "Stadt Eppstein+GCC"], default: ["Heimatverein"]}
       - {label: "Ort", name: "ort", widget: "string"}
   - name: "aktuelles" # Used in routes, e.g., /admin/collections/blog
-    label: "Aktuelles 2019" # Used in the UI
-    folder: "content/aktuelles/2019" # The path to the folder where the documents are stored
+    label: "Aktuelles 2020" # Used in the UI
+    folder: "content/aktuelles/2020" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
