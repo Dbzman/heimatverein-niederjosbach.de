@@ -22,7 +22,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", widget: "datetime"}
+      - {label: "Veröffentlichungsdatum", name: "date", format: "YYYY-MM-DDTHH:mm:ss[Z]", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", widget: "datetime"}
       - {label: "Galerie", name: "galerie", widget: "string", required: false}
       - {label: "Ankündigungsbild", name: "Bild", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
