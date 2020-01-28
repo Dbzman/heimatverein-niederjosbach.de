@@ -6,6 +6,9 @@ pluralizelisttitles = "false"
 paginate = 12
 enableRobotsTXT = true
 
+[outputs]
+  section = ["HTML", "RSS", "Calendar"]
+
 [[menu.main]]
   name = "Home"
   weight = -110

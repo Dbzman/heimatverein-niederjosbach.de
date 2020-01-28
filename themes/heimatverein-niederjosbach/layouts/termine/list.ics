@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Niederjosbacher Heimat- und Geschichtsverein 2007 e.V.
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+{{range .Pages -}}
+BEGIN:VEVENT
+ORGANIZER;CN="Niederjosbacher Heimat- und Geschichtsverein 2007 e.V.":mailto:vorsitzende@heimatverein-niederjosbach.de
+SUMMARY:{{.Params.title}}
+DESCRIPTION:Verein: {{.Params.verein}}
+UID:{{.Params.date}}@heimatverein-niederjosbach.de
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
+DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Params.date}}
+DTEND;TZID=Europe/Berlin:{{dateFormat "20060102T" .Params.date}}235900
+LOCATION:{{.Params.ort}}
+END:VEVENT
+{{end -}}
+END:VCALENDAR

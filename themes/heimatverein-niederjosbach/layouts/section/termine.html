@@ -4,6 +4,11 @@
 <a class="btn btn-primary" href="/termin-einreichen">
   Termin einreichen
 </a>
+
+{{ with  .OutputFormats.Get "calendar" -}}
+<a class="btn btn-primary" href="{{ .Permalink | safeURL }}">Als Kalender abonnieren</a>
+{{- end }}
+
 <section id="no-more-tables">
   <div class="table-responsive">
     <table class="table table-hover">
