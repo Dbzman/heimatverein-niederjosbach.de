@@ -8,7 +8,7 @@ BEGIN:VEVENT
 ORGANIZER;CN="Niederjosbacher Heimat- und Geschichtsverein 2007 e.V.":mailto:vorsitzende@heimatverein-niederjosbach.de
 SUMMARY:{{.Params.title}}
 DESCRIPTION:Verein: {{.Params.verein}}
-UID:{{.Params.date}}@heimatverein-niederjosbach.de
+UID:{{dateFormat "20060102T150405Z" .Params.date}}@heimatverein-niederjosbach.de
 SEQUENCE:0
 STATUS:CONFIRMED
 DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
