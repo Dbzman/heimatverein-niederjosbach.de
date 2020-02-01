@@ -8,7 +8,7 @@ BEGIN:VEVENT
 ORGANIZER;CN=Heimatverein:mailto:vorsitzende@heimatverein-niederjosbach.de
 SUMMARY:{{replace .Params.title "," "\\,"}}
 DESCRIPTION:Verein: {{replace .Params.verein "," "\\,"}}
-UID:{{dateFormat "20060102T150405Z" .Params.date}}@heimatverein-niederjosbach.de
+UID:{{ md5 ( printf "%s%s" (dateFormat "20060102T150405Z" .Params.date) .Params.verein )  }}@heimatverein-niederjosbach.de
 SEQUENCE:0
 STATUS:CONFIRMED
 DTSTAMP:{{dateFormat "20060102T150405Z" .Params.date}}
