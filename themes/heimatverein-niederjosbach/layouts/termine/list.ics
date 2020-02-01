@@ -16,7 +16,7 @@ DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Params.date}}{{print 
 DTEND;TZID=Europe/Berlin:{{dateFormat "20060102T" .Params.date}}235900{{print "\r"}}
 LOCATION:{{replace .Params.ort "," "\\,"}}{{print "\r"}}
 END:VEVENT{{print "\r"}}
-{{end -}}{{print "\r"}}
+{{end -}}
 BEGIN:VTIMEZONE{{print "\r"}}
 TZID:Europe/Berlin{{print "\r"}}
 X-LIC-LOCATION:Europe/Berlin{{print "\r"}}
