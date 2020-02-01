@@ -1,12 +1,13 @@
 {{ partial "header.html" . }}
 
 <h1>Termine der Niederjosbacher Vereine <small>für das Jahr {{ now.Format "2006" }}</small></h1>
-<a class="btn btn-primary" href="/termin-einreichen">
+<a class="btn btn-primary" href="/termin-einreichen"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
   Termin einreichen
 </a>
 
 {{ with  .OutputFormats.Get "calendar" -}}
-<a class="btn btn-primary" href="{{ .Permalink | safeURL }}">Als Kalender abonnieren</a>
+<a class="btn btn-primary" href="{{ .Permalink | safeURL }}"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+   Als Kalender abonnieren</a>
 {{- end }}
 
 <section id="no-more-tables">
