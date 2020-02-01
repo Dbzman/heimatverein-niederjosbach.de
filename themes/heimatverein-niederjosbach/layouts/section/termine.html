@@ -28,7 +28,7 @@
             <td  class="col-md-1" data-title="Datum">{{ (printf "%02d" .Date.Day) }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
             <td class="col-md-1" data-title="Beginnt">
               {{ if eq (.Date.Format "15:04") "00:00" }}
-                <span class="text-muted">n/a</span>
+                <span class="text-muted">n. a.</span>
               {{else }}
                 {{ .Date.Format "15:04" }}
               {{end}}</td>
