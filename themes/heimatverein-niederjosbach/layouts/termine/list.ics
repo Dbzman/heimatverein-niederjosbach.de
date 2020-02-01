@@ -1,5 +1,6 @@
 BEGIN:VCALENDAR{{print "\r"}}
 VERSION:2.0{{print "\r"}}
+X-WR-CALNAME:Heimatverein{{print "\r"}}
 PRODID:Niederjosbacher Heimat- und Geschichtsverein 2007 e.V.{{print "\r"}}
 CALSCALE:GREGORIAN{{print "\r"}}
 METHOD:PUBLISH{{print "\r"}}
