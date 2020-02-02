@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
     {{- template "_internal/opengraph.html" . }}
@@ -17,14 +16,14 @@
     {{- if $galerie }}
       {{- range where .Site.Pages "Params.galerie_pfad" $galerie }}
         {{- if $newsGalleryImage }}
-        <meta property="og:image" content="/images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}?nf_resize=fit&w=1200&h=1200" />
+        <meta property="og:image" content="{{.Site.BaseURL}}images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}?nf_resize=fit&w=1200&h=1200" />
         {{- else }}
-        <meta property="og:image" content="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=1200&h=1200" />
+        <meta property="og:image" content="{{.Site.BaseURL}}images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=1200&h=1200" />
         {{- end }}
       {{- end }}
     {{- end }}
     {{- if isset .Params "bild" }}
-      <meta property="og:image" content="/files/{{ .Params.bild }}?nf_resize=fit&w=1200&h=1200" />
+      <meta property="og:image" content="{{.Site.BaseURL}}files/{{ .Params.bild }}?nf_resize=fit&w=1200&h=1200" />
     {{- end }}
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/swipebox.min.css">
