@@ -10,7 +10,22 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    {{ template "_internal/opengraph.html" . }}
+    {{- template "_internal/opengraph.html" . }}
+    {{- $galerie := .Params.galerie }}
+    {{- $newsGalleryImage := .Params.galerie_bild }}
+
+    {{- if $galerie }}
+      {{- range where .Site.Pages "Params.galerie_pfad" $galerie }}
+        {{- if $newsGalleryImage }}
+        <meta property="og:image" content="/images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}?nf_resize=fit&w=1200&h=1200" />
+        {{- else }}
+        <meta property="og:image" content="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=1200&h=1200" />
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- if isset .Params "bild" }}
+      <meta property="og:image" content="/files/{{ .Params.bild }}?nf_resize=fit&w=1200&h=1200" />
+    {{- end }}
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/swipebox.min.css">
 
