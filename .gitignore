@@ -2,3 +2,5 @@
 public/*
 **/.sass-cache
 **/styles.css
+*.iml
+.idea
