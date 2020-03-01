@@ -1,7 +1,7 @@
 ---
 title: Mitgliederversammlung
-date: '2020-03-27T19:30:00Z'
+date: '2020-04-24T19:30:00Z'
 verein: Heimatverein
-ort: 'Vereinssaal, Niederjosbach'
+ort: 'Kastanienhof, Niederjosbach'
 ---
 
