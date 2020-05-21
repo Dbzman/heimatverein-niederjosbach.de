@@ -1,0 +1,8 @@
+---
+title: "Bericht: Fassenachtsumzug 2020"
+date: 2020-05-21T16:38:18Z
+galerie: 2020/fassenachtsumzug_2020
+---
+Man konnte es kaum glauben. Pünktlich zum Gusbacher Fassenachtsumzug gab es wieder schönes Umzugswetter. Die Zugnummern stellten sich wieder in der Bahnstraße auf. Darunter natürlich auch wieder unser Verein. Unser Motto soll, wenn möglich, ja immer einen Bezug zu etwas Historischem haben. Deswegen hatten wir uns dieses Jahr den Beruf des Müllermeisters ausgesucht. Das Motto lautete: **"Ohne uns als Müllersleut, gebs kei Brot ihr liebe Leut"**
+Viele kennen diese Berufsbezeichnung vielleicht nicht mehr und interpretierten unser Motto als Bäcker. So wurde es auch fälschlicherweise in der Zeitung wiedergegeben. Unzählige Besucher standen am Straßenrand und freuten sich auf unser Wurfmaterial wie beispielweise Stoff-Donuts und Stoff-Sonnen, Kaubonbonstreifen, Gummibärchen und kleine Brezelchen. Gemütlich ging es zum Zimmerplatz, durch die Obergasse, sowie den Zeilring hoch und runter. Unser selbstgebautes Mini-Mühlrad begeisterte Jung und Alt. **Reinhold Herrmann** hat dies eigenhändig hergestellt. Unterstützt wurden wir dieses Jahr auch wieder von Mitläufern aus Dänemark. Unterwegs gab es einen ganz kleinen, kurzen Regenschauer, der sich aber bei so viel tollen Narren schnell wieder verabschiedete. Unser Engagement wurde wieder mit einem Pokal im Vereinssaal gewürdigt.
+Wir haben natürlich einige Impressionen dieses Tages in die Galerie gestellt.
