@@ -14,7 +14,13 @@ Telefax: 06198 32860
 E-Mail: vorsitzende@heimatverein-niederjosbach.de  
 Internet: www.heimatverein-niederjosbach.de  
 
+Registergericht: Amtsgericht Königstein  
+Vereinsregisternummer: VR 1189
+
 Vertretungsberechtigter Vorstand: 2 Vorstandsmitglieder
+
+Verantwortlich für redaktionelle Inhalte:
+Timo Litzius (Schriftführer)
 
 **Disclaimer:** Der Herausgeber gibt sich bei der Bereitstellung von Inhalten im Internet größtmögliche Mühe und stellt sicher, dass alle Inhalte regelmäßig auf den neuesten Stand gebracht werden. Trotzdem kann keine Garantie dafür abgeben werden, dass alle Informationen immer aktuell oder vollständig sind, oder dass auf sie jederzeit zugegriffen werden kann.
 
