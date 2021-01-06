@@ -61,5 +61,9 @@ Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt ausschlie
 
 Über das Kontaktformular übermittelte Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder keine Notwendigkeit der Datenspeicherung mehr besteht. Zwingende gesetzliche Bestimmungen - insbesondere Aufbewahrungsfristen - bleiben unberührt.
 
+### Statistiken
+
+Wir verwenden [Plausible Analytics](https://plausible.io) für Besucher-Statistiken, welches weder Cookies, noch persönliche Daten speichert und nutzt. Für weitere Informationen besuchen Sie bitte [Plausible Analytics Data Policy](https://plausible.io/data-policy).  
+
 <small>Quelle: Datenschutz-Konfigurator von [mein-datenschutzbeauftragter.de](http://www.mein-datenschutzbeauftragter.de)</small>
 
