@@ -1,6 +1,6 @@
 ---
 title: Mitgliederversammlung am 25.11
-date: 2021-10-25T16:59:37Z
+date: 2021-10-25T16:59:37.000Z
 ---
 Der Niederjosbacher Heimat- und Geschichtsverein möchte auf seine Mitgliederversammlung am **Donnerstag den 25.11.2021 um 19:00h** im **Kastanienhof Niederjosbach (Kaminzimmer)** hinweisen und hofft auf zahlreiche Teilnehmer.
 
@@ -28,6 +28,6 @@ Der Niederjosbacher Heimat- und Geschichtsverein möchte auf seine Mitgliederver
 
 *Bisher muss das jährliche zu erstellende Protokoll zur Mitgliederversammlung von der/dem Protokollanten/Schriftführer und der/dem Versammlungs-/Wahlleitung und 2 Mitgliedern unterschrieben werden. Da dies bei keinem anderen Verein so gehandhabt wird, und dies einige Sachen sehr erschwert/ verzögert, soll darüber entschieden werden, dass die Unterschriften von den 2 Mitgliedern entfallen können.*
 
-Für den Vorstand
-Ulrike Jungels-Litzius,
+Für den Vorstand  
+Ulrike Jungels-Litzius,  
 Vorsitzende
