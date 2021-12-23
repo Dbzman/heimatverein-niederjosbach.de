@@ -1,8 +1,14 @@
 ---
-title: Frohe Weihnachten 2021!
-date: 2021-12-23T22:58:04Z
+date: "2021-12-23T23:03:00+02:00"
+title: "Coronagedicht Weihnachten 2021"
+
+menu:
+  main:
+    parent: "gedichte-erzaehlungen"
 ---
-## Coronagedicht von Ulrike Jungels-Litzius für Weihnachten 2021 und´s neue Jahr 2022
+
+# Coronagedicht für Weihnachten 2021 und´s neue Jahr 2022
+*von Ulrike Jungels-Litzius*
 
 Liebe Leut, mer kanns nit fasse,  
 des Virus will uns nit verlasse.  
@@ -52,4 +58,3 @@ Der HGV, der will euch grüßen,
 und morgen euer Fest versüßen.  
 Bleibt uns alle nur gesund,  
 ein Engelein tut dies kund.  
-
