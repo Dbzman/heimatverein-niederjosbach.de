@@ -1,9 +1,7 @@
 ---
-title: Fassenachtsgedicht 2022!
+title: Fassenachtsgedicht 2022
 date: 2022-03-01T12:11:00+02:00
 ---
-# Fassenachtsgedicht 2022 von Ulrike Jungels-Litzius
-
 Auch dieses Jahr findet wieder keine Fassenacht statt.
 Aus diesem Grund hat die Vorsitzende ein Gedicht verfasst.
 
