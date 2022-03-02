@@ -1,6 +1,6 @@
 ---
 title: Fassenachtsgedicht 2022!
-date: 2021-12-23T22:58:04Z
+date: 2022-03-01T12:11:00+02:00
 ---
 # Fassenachtsgedicht 2022 von Ulrike Jungels-Litzius
 
