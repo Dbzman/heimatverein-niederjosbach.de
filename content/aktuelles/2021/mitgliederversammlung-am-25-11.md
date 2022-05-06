@@ -1,5 +1,5 @@
 ---
-title: Mitgliederversammlung am 25.11
+title: Mitgliederversammlung am 25.11.
 date: 2021-10-25T16:59:37.000Z
 ---
 Der Niederjosbacher Heimat- und Geschichtsverein möchte auf seine Mitgliederversammlung am **Donnerstag den 25.11.2021 um 19:00h** im **Kastanienhof Niederjosbach (Kaminzimmer)** hinweisen und hofft auf zahlreiche Teilnehmer.
@@ -15,7 +15,7 @@ Der Niederjosbacher Heimat- und Geschichtsverein möchte auf seine Mitgliederver
 **TOP 8:** Entlastung des Kassierers / Kassenverwalters  
 **TOP 9:** Entlastung des Vorstandes  
 **TOP 10:** Bildung eines Wahlvorstandes  
-**TOP 11:** Wahl eines Beisitzers / einer Beisitzerin  -  
+**TOP 11:** Wahl eines Beisitzers / einer Beisitzerin  
 **TOP 12:** Wahl von Revisoren/innen / Kassenprüfer/innen  
 **TOP 13:** Übernahme der Versammlungsleitung durch die Vorsitzende  
 **TOP 14:** Anträge zur Mitgliederversammlung gemäß § 10 Abs 1. der Satzung  
