@@ -6,8 +6,8 @@ public_folder: "/files/uploads" # The src attribute for uploaded media will begi
 
 collections:
   - name: "termine" # Used in routes, e.g., /admin/collections/blog
-    label: "Termine 2020" # Used in the UI
-    folder: "content/termine/2020" # The path to the folder where the documents are stored
+    label: "Termine 2022" # Used in the UI
+    folder: "content/termine/2022" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{month}}_{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter

@@ -51,6 +51,8 @@ func main() {
 	}
 	for _, input := range events {
 		inputLayout := "02.01.2006 15:04"
+		fileLayout := "01_02"
+
 		defaultTime := "00:00"
 		timeOfEvent := input.Uhrzeit
 		if timeOfEvent == nil {
@@ -78,7 +80,10 @@ func main() {
 			Ort:    location,
 		}
 		fileName := getFileName(*input)
-		fileLocation := fmt.Sprintf("../../content/termine/%d/%s.md", dateOfEvent.Year(), fileName)
+
+		fileNamePrefix := dateOfEvent.Format(fileLayout)
+
+		fileLocation := fmt.Sprintf("../../content/termine/%d/%s_%s.md", dateOfEvent.Year(), fileNamePrefix, fileName)
 
 		directoryToCreate, _ := filepath.Split(fileLocation)
 
