@@ -6,6 +6,11 @@ pluralizelisttitles = "false"
 paginate = 12
 enableRobotsTXT = true
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [outputs]
   section = ["HTML", "RSS", "Calendar"]
 
