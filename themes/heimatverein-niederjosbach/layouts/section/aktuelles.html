@@ -22,7 +22,14 @@
               <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=520&h=347" /></a>
             {{ end}}  
             {{ $newsContent }}
-          {{ end }}
+              {{ if $galerie }}
+                {{ range where .Site.Pages "Params.galerie_pfad" $galerie }}
+                  <a class="btn btn-primary" href="{{ .Permalink }}">
+                    Zur Galerie <strong>"{{ .Title }}"</strong>
+                  </a>
+                {{ end }}
+              {{ end }}
+            {{ end }}
         </div>
       </div>
     {{ else }}
