@@ -1,7 +1,7 @@
 +++
-date = "2022-12-09T18:30:00Z"
+date = "2022-12-10T18:30:00Z"
 title = "Weihnachtsfeier Chor + Helfer"
 verein = "Gesangverein Taunusliebe"
-ort = "Vereinssaal, Niederjosbach"
+ort = "Kastanienhof, Niederjosbach"
 
 +++
