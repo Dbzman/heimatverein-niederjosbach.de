@@ -1,6 +1,6 @@
 +++
 date = "2023-02-28T21:49:34+01:00"
-title = "Bericht: Fassenachtsumzug 2023"
+title = "Bericht zum Fassenachtsumzug 2023"
 galerie = "2023/fassenachtsumzug_2023"
 +++
 
