@@ -6,8 +6,8 @@ public_folder: "/files/uploads" # The src attribute for uploaded media will begi
 
 collections:
   - name: "termine" # Used in routes, e.g., /admin/collections/blog
-    label: "Termine 2022" # Used in the UI
-    folder: "content/termine/2022" # The path to the folder where the documents are stored
+    label: "Termine 2024" # Used in the UI
+    folder: "content/termine/2024" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{month}}_{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -15,20 +15,9 @@ collections:
       - {label: "Event date", name: "date", format: "YYYY-MM-DDTHH:mm:ss[Z]", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", widget: "datetime"}
       - {label: "Verein", name: "verein", widget: "select", options: ["Heimatverein", "Katholische Kirche", "Gesangverein Taunusliebe", "Gesangverein Sängerlust", "Obst- und Gartenbauverein", "Freiwillige Feuerwehr", "Schützenverein Bremthal / Niederjosbach", "GCC", "TuS Niederjosbach", "Basarteam Niederjosbach", "Hobbykünstler", "Katholischer Kirchenchor", "Kirchengemeinde", "Vereinsring Niederjosbach", "KiTa Niederjosbach", "FFW Niederjosbach", "Vereinsring", "Vereinsring Njb.", "Vereinsring (insb. Sängerlust) + Ortsvorsteherin", "OGV Niederjosbach", "GCC 1981 e.V.", "Kath. Kirchenchor", "TuS Niederjosbach, Abtlg. Fußball", "Stadt + Kirchengemeinden", "TuS Niederjosbach, Abt. Fussball", "Förderverein St. Michael", "Stadt Eppstein+GCC"], default: ["Heimatverein"]}
       - {label: "Ort", name: "ort", widget: "string"}
-  - name: "aktuelles_2020" # Used in routes, e.g., /admin/collections/blog
-    label: "Aktuelles 2020" # Used in the UI
-    folder: "content/aktuelles/2020" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", format: "YYYY-MM-DDTHH:mm:ss[Z]", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", widget: "datetime"}
-      - {label: "Galerie", name: "galerie", widget: "string", required: false}
-      - {label: "Ankündigungsbild", name: "Bild", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "aktuelles_2021" # Used in routes, e.g., /admin/collections/blog
-    label: "Aktuelles 2021" # Used in the UI
-    folder: "content/aktuelles/2021" # The path to the folder where the documents are stored
+  - name: "aktuelles_2023" # Used in routes, e.g., /admin/collections/blog
+    label: "Aktuelles 2023" # Used in the UI
+    folder: "content/aktuelles/2023" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -38,8 +27,8 @@ collections:
       - {label: "Ankündigungsbild", name: "Bild", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "aktuelles" # Used in routes, e.g., /admin/collections/blog
-    label: "Aktuelles 2022" # Used in the UI
-    folder: "content/aktuelles/2022" # The path to the folder where the documents are stored
+    label: "Aktuelles 2024" # Used in the UI
+    folder: "content/aktuelles/2024" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
