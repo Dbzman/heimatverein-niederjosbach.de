@@ -31,6 +31,7 @@ type Output struct {
 	Ort    string
 }
 
+// IMPORTANT: Remove BOMs in files before reading, otherwise the first column doesn't give results
 func main() {
 	gocsv.SetCSVReader(func(in io.Reader) gocsv.CSVReader {
 		r := csv.NewReader(in)
@@ -38,7 +39,7 @@ func main() {
 		return r
 	})
 
-	inputFile, err := os.OpenFile("files/2023.csv", os.O_RDWR|os.O_CREATE, os.ModePerm)
+	inputFile, err := os.OpenFile("files/2024.csv", os.O_RDWR|os.O_CREATE, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}
@@ -64,6 +65,7 @@ func main() {
 		dateOfEvent, err := time.Parse(inputLayout, formattedDate)
 
 		if err != nil {
+			fmt.Println(formattedDate)
 			fmt.Println(err)
 		}
 
