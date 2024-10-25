@@ -1,7 +1,7 @@
 +++
-date = "2024-12-22T00:00:00Z"
+date = "2024-12-22T17:00:00Z"
 title = "80 Jahre Kirchenchor"
 verein = "Kirchenchor"
-ort = ""
+ort = "Kirche, Niederjosbach"
 
 +++
