@@ -29,11 +29,11 @@ Tel: 06198-32860
 E-Mail: mail@dbzman-online.eu  
 
 **Kassierer:**  
-Reinhold Herrmann  
-Am Honigbaum 11  
+Margriet van Staveren  
+Am Honigbaum 8  
 65817 Eppstein  
-Tel: 06198-9890  
-E-Mail: reinhold.herrmann@gmx.net  
+Tel: 06198-8881  
+E-Mail: margriet.van.staveren@web.de
 
 **4 Beisitzer:**  
 Jürgen Baesler  
@@ -42,11 +42,11 @@ Zeilring 41/8
 Tel: 06198-2531  
 E-Mail: Juergen.Baesler@t-online.de  
 
-Margriet van Staveren  
-Am Honigbaum 8  
+Reinhold Herrmann  
+Am Honigbaum 11  
 65817 Eppstein  
-Tel: 06198-8881  
-E-Mail: margriet.van.staveren@web.de  
+Tel: 06198-9890  
+E-Mail: reinhold.herrmann@gmx.net
 
 Werner Lehmann  
 Gabelsbornstraße 44a  
@@ -54,8 +54,8 @@ Gabelsbornstraße 44a
 Tel: 0611-8901792  
 E-Mail: lehmannwerner@web.de  
 
-Engelbert Bouillon  
-Bahnstraße 24  
+Peer Steyer 
+Bahnstraße 10  
 65817 Eppstein  
-Tel: 06198-32193  
-E-Mail: engelbert-bouillon@t-online.de  
+Tel: 06198-5875413  
+E-Mail: Peer.steyer@ t-online.de
