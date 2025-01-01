@@ -39,7 +39,7 @@ func main() {
 		return r
 	})
 
-	inputFile, err := os.OpenFile("files/2024.csv", os.O_RDWR|os.O_CREATE, os.ModePerm)
+	inputFile, err := os.OpenFile("files/2025.csv", os.O_RDWR|os.O_CREATE, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}
