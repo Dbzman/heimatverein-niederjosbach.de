@@ -1,1 +1,0 @@
-+++\nddate = "2025-02-26T18:00:00Z"\ntitle = "Infoveranstaltung - Das Geheimnis der Mediation"\nverein = "BürgerKolleg"\nort = "Online-ZOOM-Konferenz"\n+++\n

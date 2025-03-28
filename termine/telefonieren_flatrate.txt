@@ -1,1 +1,0 @@
-+++\nddate = "2025-03-07T19:30:00Z"\ntitle = "Telefonieren zum Festpreis - Flatrate für alle Mitarbeiter"\nverein = "Vereinsring Niederjosbach"\nort = "Niederjosbach"\n+++
