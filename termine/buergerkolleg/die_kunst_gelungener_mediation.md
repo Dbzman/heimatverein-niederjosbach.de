@@ -1,0 +1,1 @@
++++\ndate = "2025-03-01T00:00:00Z"\ntitle = "Die Kunst gelungener Mediation"\nverein = "BürgerKolleg"\nort = "Michelsberg 6, Wiesbaden"\n+++\n
