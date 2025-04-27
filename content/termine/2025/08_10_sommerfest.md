@@ -1,6 +1,6 @@
 +++
-date = "2025-08-10T00:00:00Z"
+date = "2025-08-10T11:00:00Z"
 title = "Sommerfest"
-verein = "Heimatverein"
+verein = "Heimat- u. Geschichtsverein"
 ort = "Niederjosbach"
 +++
