@@ -8,3 +8,5 @@ helpers/event-importer/event-importer
 .hugo_build.lock
 themes/heimatverein-niederjosbach/bootstrap-sass/vendor
 themes/heimatverein-niederjosbach/bootstrap-sass/.bundle
+# Local Netlify folder
+.netlify
