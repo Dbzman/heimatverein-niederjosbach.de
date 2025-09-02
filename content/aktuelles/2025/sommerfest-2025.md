@@ -4,7 +4,7 @@ title: "Bericht: Sommerfest 2025"
 galerie: "2025/sommerfest_2025"
 ---
 
-Am **30. August 2025** fand ab **11 Uhr** unser diesjähriges Sommerfest im Hof der Familie Heinz, dem alten Gasthaus „Zum Grünen Tal“, statt. Entgegen aller Befürchtungen blieb das Wetter stabil und wir konnten den Tag ohne Regen genießen.
+Am **31. August 2025** fand ab **11 Uhr** unser diesjähriges Sommerfest im Hof der Familie Heinz, dem alten Gasthaus „Zum Grünen Tal“, statt. Entgegen aller Befürchtungen blieb das Wetter stabil und wir konnten den Tag ohne Regen genießen.
 
 Für das leibliche Wohl sorgte, neben vielen anderen Helfern, unter anderem auch **Peer Steyer**, der den ganzen Tag über den Grill bediente. Es gab Bratwürste, Schmalzbrot, Brezeln und Spundekäs. Dazu wurde traditionell Apfelwein der Familie Heinz ausgeschenkt.
 
