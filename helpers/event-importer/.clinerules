@@ -1,0 +1,226 @@
+# Event Import Process for Heimatverein Niederjosbach
+
+## Overview
+This document describes the automated process for importing events into the Heimatverein Niederjosbach website. Use this as a guide when transforming event lists into the correct CSV format for import.
+
+## Import Tool Location
+- **Path**: `helpers/event-importer/`
+- **Main Script**: `main.go`
+- **Template**: `event.tmpl`
+- **CSV Files**: Place in `helpers/event-importer/files/` directory
+
+## CSV File Format
+
+### File Naming Convention
+CSV files should be named by year: `YYYY.csv` (e.g., `2025.csv`, `2026.csv`)
+
+### CSV Structure
+The CSV file uses semicolon (`;`) as delimiter and contains the following columns:
+
+```
+Datum;Uhrzeit;Ort;Name;Veranstalter
+```
+
+### Column Specifications
+
+1. **Datum** (Date) - REQUIRED
+   - Format: `DD.MM.YYYY`
+   - Example: `04.01.2025`
+
+2. **Uhrzeit** (Time) - OPTIONAL
+   - Format: `HH:MM`
+   - Example: `19:30`
+   - **Important**: If time is unknown, use empty quotes `""`
+   - When omitted, the event will not display a specific time
+
+3. **Ort** (Location) - OPTIONAL
+   - See "Event Locations" section below for valid values
+   - Can be empty quotes `""` if no specific location
+   - System automatically appends ", Niederjosbach" to locations
+
+4. **Name** (Event Name) - REQUIRED
+   - The title/description of the event
+   - Will be normalized for file naming (see "File Naming Rules")
+
+5. **Veranstalter** (Organizer) - REQUIRED
+   - The club/organization hosting the event
+   - See "Event Organizers" section below
+
+### Example CSV Entries
+
+```csv
+Datum;Uhrzeit;Ort;Name;Veranstalter
+04.01.2025;19:30;Kirche;Neujahrskonzert (mit emBRASSment);Kirchengemeinde St. Michael
+19.01.2025;"";Vereinssaal;Sektempfang;GCC 1981 e.V.
+29.05.2025;"";Dorfplatz;Familienwanderung;Gesangverein Taunusliebe
+```
+
+## File Naming Rules
+
+The system automatically generates filenames from event data using these transformations:
+
+1. Convert to lowercase
+2. Replace spaces with underscores (`_`)
+3. Replace German umlauts:
+   - `ü` → `ue`
+   - `ö` → `oe`
+   - `ä` → `ae`
+   - `ß` → `ss`
+4. Remove special characters: `.`, `"`, `/`, `(`, `)`
+5. Replace `-` with `_`
+6. Replace `+` with `und`
+7. Collapse multiple underscores to single underscore
+8. Remove accents and diacritical marks
+
+**Example**: `"Neujahrskonzert (mit emBRASSment)"` becomes `neujahrskonzert_mit_embrassment`
+
+Final filename format: `MM_DD_normalized_event_name.md`
+
+## Event Locations
+
+The following locations are commonly used for events in Niederjosbach:
+
+### Primary Venues
+- **Vereinssaal** - Main community hall
+- **Kirche** - St. Michael Church
+- **Feuerwehrgerätehaus** - Fire station building
+- **Kastanienhof** - Restaurant/venue
+- **Dorfplatz** - Village square
+- **Pfarrgemeindezentrum** (also: **PGZ**) - Parish community center
+
+### Additional Locations
+- **Kirche/KiTa** - Church/Kindergarten area
+- **Vor der Feuerwehr** - In front of fire station
+- **Ehrenmal** - War memorial
+- **Burg** - Castle
+- **Sportarena** - Sports arena
+- **Turnhalle am Bienroth in Eppstein** - Gym in Eppstein
+- **eh. Gasthof "Krone"** (also: **Zur Krone**) - Former inn "Krone"
+- **Kastanienhof (Kaminzimmer)** - Kastanienhof (fireplace room)
+- **Eisbahn Kastanienhof** - Ice rink at Kastanienhof
+- **Hof Peter Heinz** - Peter Heinz farm
+- **Ecke Eppsteinerstr. / Gartenstr.** - Corner of Eppsteiner/Garden street
+- **Parkplatz Vereinssaal** - Community hall parking lot
+- **Straßen+Vereinssaal** - Streets + community hall
+
+## Event Organizers and Their Typical Locations
+
+### Location-to-Organizer Mapping
+
+1. **Vereinssaal** (Community Hall)
+   - GCC 1981 e.V. (carnival club)
+   - Gesangverein Taunusliebe (choir)
+   - Gesangverein Sängerlust (choir)
+   - VR Niederjosbach (Vereinsring - association ring)
+   - Hobbykünstler (hobby artists)
+   - TuS Niederjosbach, Abtlg. Fußball (sports club)
+
+2. **Kirche** (Church)
+   - Kirchengemeinde St. Michael
+   - Kirchenchor St. Michael
+   - Förderverein St. Michael
+   - Kath. Kirchenchor
+   - Gesangverein Taunusliebe (for memorial services)
+   - "Instrument Stimme" mit Förderverein St. Michael
+
+3. **Feuerwehrgerätehaus** (Fire Station)
+   - FFW Niederjosbach (volunteer fire brigade)
+
+4. **Kastanienhof**
+   - Heimat- u. Geschichtsverein (local history association)
+   - Gesangverein Taunusliebe
+
+5. **Dorfplatz** (Village Square)
+   - Gesangverein Taunusliebe
+   - FFW Niederjosbach
+   - Kirchengemeinde mit Förderverein St. Michael
+   - Vereinsring Njb. (for Adventsmarkt)
+
+6. **Kirche/KiTa**
+   - KiTa Niederjosbach (kindergarten)
+
+7. **Vor der Feuerwehr** (In front of fire station)
+   - GCC 1981 e.V. (for Rathaussturm)
+
+8. **Pfarrgemeindezentrum** (PGZ)
+   - VR Niederjosbach
+   - Förderverein St. Michael
+
+9. **Burg** (Castle)
+   - Burgverein
+   - Kath. Eppstein
+
+10. **Sportarena**
+    - TuS Niederjosbach, Abt. Fussball
+
+11. **Turnhalle am Bienroth in Eppstein**
+    - TuS Niederjosbach, Abt. Volleyball
+
+12. **Zur Krone / eh. Gasthof "Krone"**
+    - Heimat- u. Geschichtsverein
+
+13. **Hof Peter Heinz**
+    - Heimat- u. Geschichtsverein
+
+14. **Ecke Eppsteinerstr. / Gartenstr.**
+    - Heimat- u. Geschichtsverein (for Dickwurzschnitzen)
+
+15. **Ehrenmal** (War Memorial)
+    - Vereinsring (insb. Taunusliebe) + Ortsvorsteherin
+
+16. **Parkplatz Vereinssaal**
+    - OGV Niederjosbach (garden association)
+
+### Complete List of Organizers
+
+- **FFW Niederjosbach** - Freiwillige Feuerwehr (volunteer fire brigade)
+- **GCC 1981 e.V.** - Gusbacher Carneval Club (carnival club)
+- **Gesangverein Taunusliebe** - Main choir
+- **Gesangverein Sängerlust** - Secondary choir
+- **Heimat- u. Geschichtsverein** - Local history association
+- **Kirchengemeinde St. Michael** - Catholic parish
+- **Kirchenchor St. Michael** - Church choir
+- **Förderverein St. Michael** - Church support association
+- **Kath. Kirchenchor** - Catholic church choir
+- **KiTa Niederjosbach** - Kindergarten
+- **VR Niederjosbach** (Vereinsring Njb.) - Association ring (umbrella organization)
+- **TuS Niederjosbach, Abt. Fußball** - Sports club, football division
+- **TuS Niederjosbach, Abt. Volleyball** - Sports club, volleyball division
+- **Hobbykünstler** - Hobby artists
+- **OGV Niederjosbach** - Garden association
+- **Burgverein** - Castle association
+- **Kath. Eppstein** - Catholic Eppstein
+
+## Running the Importer
+
+1. Place your CSV file in `helpers/event-importer/files/`
+2. Update line 42 in `main.go` to reference your CSV file:
+   ```go
+   inputFile, err := os.OpenFile("files/YOUR_YEAR.csv", os.O_RDWR|os.O_CREATE, os.ModePerm)
+   ```
+3. Run from the `helpers/event-importer/` directory:
+   ```bash
+   go run main.go
+   ```
+4. Generated event files will be created in `content/termine/YYYY/`
+
+## Important Notes
+
+- **BOMs**: Remove byte order marks (BOMs) from CSV files before processing
+- **Time handling**: If no time is specified, the system uses `00:00` internally but can be configured to omit time display
+- **Location formatting**: All locations automatically get ", Niederjosbach" appended unless empty
+- **File overwrites**: The importer will overwrite existing event files with the same name
+- **Directory creation**: The importer automatically creates year directories as needed
+
+## AI Transformation Guidelines
+
+When transforming event lists for import:
+
+1. **Parse dates** into DD.MM.YYYY format
+2. **Extract times** in HH:MM format, use `""` if not specified
+3. **Map locations** to standard location names from the list above
+4. **Match organizers** to the standard organizer names
+5. **Preserve event names** exactly as provided
+6. **Validate CSV structure** with semicolon delimiters
+7. **Include header row**: `Datum;Uhrzeit;Ort;Name;Veranstalter`
+8. **Quote empty values** with `""`
