@@ -42,12 +42,6 @@ Zeilring 41/8
 Tel: 06198-2531  
 E-Mail: Juergen.Baesler@t-online.de  
 
-Reinhold Herrmann  
-Am Honigbaum 11  
-65817 Eppstein  
-Tel: 06198-9890  
-E-Mail: reinhold.herrmann@gmx.net
-
 Engelbert Bouillon  
 Bahnstraße 24  
 65817 Eppstein  
@@ -58,4 +52,4 @@ Peer Steyer
 Bahnstraße 10  
 65817 Eppstein  
 Tel: 06198-5875413  
-E-Mail: Peer.steyer@ t-online.de
+E-Mail: Peer.steyer@t-online.de
