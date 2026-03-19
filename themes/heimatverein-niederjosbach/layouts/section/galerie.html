@@ -9,17 +9,29 @@
 {{ range $key, $value := .Paginator.Pages}}
   {{ $galeriePath := .Params.galerie_pfad }}
   {{ $galerieBild := .Params.galerie_bild }}
+  {{ $galerieLink := .Permalink }}
   {{ $isLastElem := not (sub (sub $len 1) $key)}}
 
   {{ if modBool $key $cols }}
   <div class="row galerie-grid-row">
   {{ end }}
     <div class="col-xs-6 col-md-4 col-lg-3">
+      {{ $pathParts := split $galeriePath "/" }}
+      {{ $year := index $pathParts 0 }}
+      {{ $event := index $pathParts 1 }}
+      {{ $galleryData := index $.Site.Data.galleries $year }}
+      {{ $gallery := index $galleryData $event }}
+      {{ $coverImage := index $gallery.images 0 }}
 
-      <a href="{{ .Permalink }}"><img class="thumbnail img-responsive galerie-image" src="/images/galerie/{{ $galeriePath }}/{{ $galerieBild }}?nf_resize=fit&w=520&h=347" />
-      </a>
+      {{ if $coverImage }}
+        <a href="{{ $galerieLink }}"><img class="thumbnail img-responsive galerie-image" src="/images/galerie/{{ $galeriePath }}/{{ $coverImage.thumbnail }}" />
+        </a>
+      {{ else }}
+        <a href="{{ $galerieLink }}"><img class="thumbnail img-responsive galerie-image" src="/images/galerie/{{ $galeriePath }}/{{ $galerieBild }}" />
+        </a>
+      {{ end }}
       <p class="text-center">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ $galerieLink }}">{{ .Title }}</a>
       </p>
     </div>
   {{ if or (modBool (add $key 1) $cols) $isLastElem }}
@@ -28,5 +40,5 @@
 {{ end }}
 
 {{ template "_internal/pagination.html" . }}
-  
+
 {{ partial "footer.html" . }}

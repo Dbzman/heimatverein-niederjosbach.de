@@ -1,0 +1,40 @@
+{
+  "year": "2012",
+  "event": "volkstrauertag_2012",
+  "path": "2012/volkstrauertag_2012",
+  "images": [
+    {
+      "original": "20121118_01.jpg",
+      "thumbnail": "20121118_01_thumb.jpg"
+    },
+    {
+      "original": "20121118_02.jpg",
+      "thumbnail": "20121118_02_thumb.jpg"
+    },
+    {
+      "original": "20121118_03.jpg",
+      "thumbnail": "20121118_03_thumb.jpg"
+    },
+    {
+      "original": "20121118_04.jpg",
+      "thumbnail": "20121118_04_thumb.jpg"
+    },
+    {
+      "original": "20121118_05.jpg",
+      "thumbnail": "20121118_05_thumb.jpg"
+    },
+    {
+      "original": "20121118_06.jpg",
+      "thumbnail": "20121118_06_thumb.jpg"
+    },
+    {
+      "original": "20121118_07.jpg",
+      "thumbnail": "20121118_07_thumb.jpg"
+    },
+    {
+      "original": "20121118_08.jpg",
+      "thumbnail": "20121118_08_thumb.jpg"
+    }
+  ],
+  "count": 8
+}

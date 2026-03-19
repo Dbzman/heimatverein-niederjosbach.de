@@ -23,7 +23,7 @@
         </tr></thead>
         <tbody>
           {{ $currentYear := now.Year }}
-          {{ range where (where .Data.Pages.ByDate ".Date" "ge" now) ".Date.Year" "eq" $currentYear }}
+          {{ range where .Data.Pages.ByDate ".Date.Year" $currentYear }}
           <tr>
             <td  class="col-md-1" data-title="Datum">{{ (printf "%02d" .Date.Day) }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
             <td class="col-md-1" data-title="Beginnt">

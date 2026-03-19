@@ -1,0 +1,32 @@
+{
+  "year": "2010",
+  "event": "freigabe_der_unterfuehrung",
+  "path": "2010/freigabe_der_unterfuehrung",
+  "images": [
+    {
+      "original": "20100531_01.jpg",
+      "thumbnail": "20100531_01_thumb.jpg"
+    },
+    {
+      "original": "20100531_02.jpg",
+      "thumbnail": "20100531_02_thumb.jpg"
+    },
+    {
+      "original": "20100531_03.jpg",
+      "thumbnail": "20100531_03_thumb.jpg"
+    },
+    {
+      "original": "20100531_04.jpg",
+      "thumbnail": "20100531_04_thumb.jpg"
+    },
+    {
+      "original": "20100531_05.jpg",
+      "thumbnail": "20100531_05_thumb.jpg"
+    },
+    {
+      "original": "20100531_06.jpg",
+      "thumbnail": "20100531_06_thumb.jpg"
+    }
+  ],
+  "count": 6
+}

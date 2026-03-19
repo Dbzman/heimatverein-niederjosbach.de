@@ -19,7 +19,7 @@
             {{ if $newsGalleryImage }}
               <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/images/galerie/{{ .Params.galerie_pfad }}/{{ $newsGalleryImage }}?nf_resize=fit&w=520&h=347" /></a>
             {{ else }}
-              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src="/images/galerie/{{ .Params.galerie_pfad }}/{{ .Params.galerie_bild }}?nf_resize=fit&w=520&h=347" /></a>
+              <a href="{{ $newsLink }}"><img class="thumbnail img-responsive news-image" src='/images/galerie/{{ .Params.galerie_pfad }}/{{ replace .Params.galerie_bild ".jpg" "_thumb.jpg" }}' /></a>
             {{ end}}  
             {{ $newsContent }}
               {{ if $galerie }}
@@ -38,7 +38,7 @@
       <div class="row">
         <div class="col-sm-12">
           {{ if isset .Params "bild" }}
-            <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.bild }}?nf_resize=fit&w=520&h=347" /></a>
+            <a href="{{ .Permalink }}"><img class="thumbnail img-responsive news-image" src="/files/{{ .Params.bild }}" /></a>
           {{ end }}
           {{ .Content }}
         </div>
