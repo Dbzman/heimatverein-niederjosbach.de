@@ -1,7 +1,6 @@
 .DS_STORE
 public/*
 **/.sass-cache
-**/styles.css
 *.iml
 .idea
 helpers/event-importer/event-importer
