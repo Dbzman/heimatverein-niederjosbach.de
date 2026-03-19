@@ -1,0 +1,32 @@
+name: Build and Publish Hugo Site
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Publish Hugo Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source (GIT)
+        uses: actions/checkout@v6.0.1
+        with:
+          submodules: true
+      - name: Hugo Build
+        uses: lowply/build-hugo@v0.154.5
+        with:
+          # Hugo parameters like --buildDrafts, --baseURL, etc.
+          # see https://gohugo.io/getting-started/usage/
+          args: --buildFuture --minify
+      - name: List files for debugging
+        # For debugging list files from current directory to console
+        run: ls
+      - name: SFTP Upload
+        uses: Dylan700/sftp-upload-action@v1.2.3
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          uploads: |
+            ./public/ => ./
