@@ -10,3 +10,4 @@ themes/heimatverein-niederjosbach/bootstrap-sass/vendor
 themes/heimatverein-niederjosbach/bootstrap-sass/.bundle
 # Local Netlify folder
 .netlify
+resources

@@ -1,0 +1,8 @@
+{{- $bild := .Params.bild -}}
+{{- $image := resources.Get (printf "files/%s" $bild) -}}
+{{- if $image -}}
+  {{- $thumbnail := $image.Resize "520x" -}}
+  <a class="image-link" href="{{ $image.RelPermalink }}"><img class="thumbnail img-responsive news-image" src="{{ $thumbnail.RelPermalink }}" /></a>
+{{- else -}}
+  <a class="image-link" href="/files/{{ $bild }}"><img class="thumbnail img-responsive news-image" src="/files/{{ $bild }}" /></a>
+{{- end -}}

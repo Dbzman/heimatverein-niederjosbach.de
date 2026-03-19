@@ -23,7 +23,13 @@
       {{- end }}
     {{- end }}
     {{- if isset .Params "bild" }}
-      <meta property="og:image" content="{{.Site.BaseURL}}files/{{ .Params.bild }}?nf_resize=fit&w=1200&h=1200" />
+      {{- $image := resources.Get (printf "files/%s" .Params.bild) -}}
+      {{- if $image -}}
+        {{- $ogImage := $image.Resize "1200x1200" -}}
+        <meta property="og:image" content="{{.Site.BaseURL}}{{ $ogImage.RelPermalink }}" />
+      {{- else -}}
+        <meta property="og:image" content="{{.Site.BaseURL}}files/{{ .Params.bild }}" />
+      {{- end -}}
     {{- end }}
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/css/swipebox.min.css">
