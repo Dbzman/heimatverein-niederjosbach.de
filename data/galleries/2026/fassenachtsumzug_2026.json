@@ -4,6 +4,142 @@
   "path": "2026/fassenachtsumzug_2026",
   "images": [
     {
+      "original": "IMG_0212.jpeg",
+      "thumbnail": "IMG_0212_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0213.jpeg",
+      "thumbnail": "IMG_0213_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0216.jpeg",
+      "thumbnail": "IMG_0216_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0219.jpeg",
+      "thumbnail": "IMG_0219_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0222.jpeg",
+      "thumbnail": "IMG_0222_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0225.jpeg",
+      "thumbnail": "IMG_0225_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0226.jpeg",
+      "thumbnail": "IMG_0226_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0235.jpeg",
+      "thumbnail": "IMG_0235_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0237.jpeg",
+      "thumbnail": "IMG_0237_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0238.jpeg",
+      "thumbnail": "IMG_0238_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0239.jpeg",
+      "thumbnail": "IMG_0239_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0240.jpeg",
+      "thumbnail": "IMG_0240_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0241.jpeg",
+      "thumbnail": "IMG_0241_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0242.jpeg",
+      "thumbnail": "IMG_0242_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0243.jpeg",
+      "thumbnail": "IMG_0243_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0246.jpeg",
+      "thumbnail": "IMG_0246_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0251.jpeg",
+      "thumbnail": "IMG_0251_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0254.jpeg",
+      "thumbnail": "IMG_0254_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0255.jpeg",
+      "thumbnail": "IMG_0255_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0256.jpeg",
+      "thumbnail": "IMG_0256_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0258.jpeg",
+      "thumbnail": "IMG_0258_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0259.jpeg",
+      "thumbnail": "IMG_0259_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0262.jpeg",
+      "thumbnail": "IMG_0262_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0268.jpeg",
+      "thumbnail": "IMG_0268_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0270.jpeg",
+      "thumbnail": "IMG_0270_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0272.jpeg",
+      "thumbnail": "IMG_0272_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0273.jpeg",
+      "thumbnail": "IMG_0273_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0275.jpeg",
+      "thumbnail": "IMG_0275_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0277.jpeg",
+      "thumbnail": "IMG_0277_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0288.jpeg",
+      "thumbnail": "IMG_0288_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0298.jpeg",
+      "thumbnail": "IMG_0298_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0304.jpeg",
+      "thumbnail": "IMG_0304_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0305.jpeg",
+      "thumbnail": "IMG_0305_thumb.jpeg"
+    },
+    {
+      "original": "IMG_0307.jpeg",
+      "thumbnail": "IMG_0307_thumb.jpeg"
+    },
+    {
       "original": "IMG_2370.jpg",
       "thumbnail": "IMG_2370_thumb.jpg"
     },
@@ -304,5 +440,5 @@
       "thumbnail": "IMG_2453_thumb.jpg"
     }
   ],
-  "count": 75
+  "count": 109
 }
