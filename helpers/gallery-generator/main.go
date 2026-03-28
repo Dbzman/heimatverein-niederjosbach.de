@@ -10,6 +10,7 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/disintegration/imageorient"
 	"github.com/disintegration/imaging"
 )
 
@@ -321,16 +322,19 @@ func generateThumbnailName(originalName string) string {
 }
 
 func generateThumbnail(originalPath, thumbPath string) error {
-	// Open and decode image
-	img, err := imaging.Open(originalPath)
+	file, err := os.Open(originalPath)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	img, _, err := imageorient.Decode(file)
 	if err != nil {
 		return err
 	}
 
-	// Crop to square from center and resize to thumbnailSize
 	thumb := imaging.Fill(img, thumbnailSize, thumbnailSize, imaging.Center, imaging.Lanczos)
 
-	// Save thumbnail as JPEG with quality 85
 	return imaging.Save(thumb, thumbPath, imaging.JPEGQuality(85))
 }
 
