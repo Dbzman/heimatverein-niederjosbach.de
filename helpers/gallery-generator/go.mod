@@ -9,5 +9,5 @@ require (
 
 require (
 	github.com/disintegration/gift v1.1.2 // indirect
-	golang.org/x/image v0.37.0 // indirect
+	golang.org/x/image v0.38.0 // indirect
 )
