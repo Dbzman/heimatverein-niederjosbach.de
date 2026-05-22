@@ -4,7 +4,7 @@ title = "Mitgliederversammlung am 26.06."
 +++
 
 Der Niederjosbacher Heimat- und Geschichtsverein möchte auf seine Mitgliederversammlung
-am **Freitag, den 26.06.2026, um 18:30 h** im **Kastanienhof Niederjosbach (Kaminzimmer)**
+am **Freitag, den 26.06.2026, um 18:30 h** im **Kastanienhof Niederjosbach**
 hinweisen und hofft auf zahlreiche Teilnehmer.
 
 **Tagesordnung:**  
@@ -21,7 +21,7 @@ hinweisen und hofft auf zahlreiche Teilnehmer.
 **TOP 11:** Wahl von 2 Kassenprüfer/innen und 1 Ersatzprüfer/in  
 **TOP 12:** Übernahme der Versammlungsleitung durch die Vorsitzende/den Vorsitzenden  
 **TOP 13:** Anträge zur Mitgliederversammlung gemäß § 10 Abs 1. der Satzung  
-**TOP 14:** Termine 2027  
+**TOP 14:** Termine 2026/2027  
 **TOP 15:** Ehrungen  
 **TOP 16:** Verschiedenes
 
