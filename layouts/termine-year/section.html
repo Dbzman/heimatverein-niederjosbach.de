@@ -1,0 +1,179 @@
+{{ partial "header.html" . }}
+
+{{ $isYearPage := false }}
+{{ $pageTitle := .Title }}
+{{ if $pageTitle }}
+  {{ if findRE `[0-9]` $pageTitle }}
+    {{ $yearNum := int $pageTitle }}
+    {{ if and (ge $yearNum 1900) (le $yearNum 2100) }}
+      {{ $isYearPage = true }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $isYearPage }}
+  <!-- Main termine page with tabs -->
+  <h1>Termine der Niederjosbacher Vereine</h1>
+  {{ with  .OutputFormats.Get "calendar" -}}
+  <a class="btn btn-primary" href="{{ .Permalink | safeURL }}"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+     Kalender abonnieren</a>
+  {{- end }}
+
+  <!-- Links to previous years -->
+  <div class="row" style="margin-top: 20px; margin-bottom: 20px;">
+    <div class="col-md-12">
+      <p>Archiv: 
+        {{ $currentYear := now.Year }}
+        {{ $years := where (readDir "content/termine") ".IsDir" true }}
+        {{ $sortedYears := sort $years ".Name" "desc" }}
+        {{ range $sortedYears }}
+          {{ $yearName := .Name }}
+          {{ if ne $yearName (printf "%d" $currentYear) }}
+            <a href="/termine/{{ $yearName }}/" class="btn btn-xs btn-default">{{ $yearName }}</a> 
+          {{ end }}
+        {{ end }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Tabs for upcoming and past events -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#upcoming" aria-controls="upcoming" role="tab" data-toggle="tab">Kommende Termine</a></li>
+    <li role="presentation"><a href="#past" aria-controls="past" role="tab" data-toggle="tab">Vergangene Termine {{ now.Format "2006" }}</a></li>
+  </ul>
+
+  <div class="tab-content" style="margin-top: 20px;">
+    {{ $termineSection := $.Site.GetPage "/termine" }}
+    {{ $allTermine := $termineSection.RegularPagesRecursive | collections.Reverse }}
+    
+    <!-- Upcoming events tab -->
+    <div role="tabpanel" class="tab-pane active" id="upcoming">
+      <section id="no-more-tables">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Datum</th>
+                <th>Beginnt</th>
+                <th>Veranstaltung</th>
+                <th>Ort/Treffpunkt</th>
+                <th>Verein</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ $today := now }}
+              {{ $currentYear := now.Year }}
+              {{ range $allTermine }}
+                {{ if .Params.verein }}
+                  {{ if ge .Date $today }}
+                  <tr class="{{ if and (eq .Date.Year $today.Year) (eq .Date.Day $today.Day) (eq .Date.Month $today.Month) }}success{{ end }}">
+                    <td class="col-md-1" data-title="Datum">{{ (printf "%02d" .Date.Day) }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
+                    <td class="col-md-1" data-title="Beginnt">
+                      {{ if eq (.Date.Format "15:04") "00:00" }}
+                        <span class="text-muted">n. a.</span>
+                      {{ else }}
+                        {{ .Date.Format "15:04" }}
+                      {{ end }}
+                    </td>
+                    <td class="col-md-2" data-title="Veranstaltung">{{ .Title }}</td>
+                    <td class="col-md-2" data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
+                    <td class="col-md-2" data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
+                  </tr>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <!-- Past events tab (current year only) -->
+    <div role="tabpanel" class="tab-pane" id="past">
+      <section id="no-more-tables">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Datum</th>
+                <th>Beginnt</th>
+                <th>Veranstaltung</th>
+                <th>Ort/Treffpunkt</th>
+                <th>Verein</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ $today := now }}
+              {{ $currentYear := now.Year }}
+              {{ range $allTermine | collections.Reverse }}
+                {{ if .Params.verein }}
+                  {{ if and (eq .Date.Year $currentYear) (lt .Date $today) }}
+                <tr>
+                  <td class="col-md-1" data-title="Datum">{{ (printf "%02d" .Date.Day) }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }}</td>
+                  <td class="col-md-1" data-title="Beginnt">
+                    {{ if eq (.Date.Format "15:04") "00:00" }}
+                      <span class="text-muted">n. a.</span>
+                    {{ else }}
+                      {{ .Date.Format "15:04" }}
+                    {{ end }}
+                  </td>
+                  <td class="col-md-2" data-title="Veranstaltung">{{ .Title }}</td>
+                  <td class="col-md-2" data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
+                  <td class="col-md-2" data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
+                </tr>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </div>
+
+{{ else }}
+  <!-- Year page -->
+  <h1>Termine der Niederjosbacher Vereine für das Jahr {{ .Title }}</h1>
+
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-md-12">
+      <a href="/termine/" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Zurück zu aktuellen Terminen</a>
+    </div>
+  </div>
+
+  <section id="no-more-tables">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Datum</th>
+            <th>Beginnt</th>
+            <th>Veranstaltung</th>
+            <th>Ort/Treffpunkt</th>
+            <th>Verein</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Data.Pages.ByDate }}
+          <tr>
+            <td class="col-md-1" data-title="Datum">{{ (printf "%02d" .Date.Day) }}. {{ index $.Site.Data.monate (printf "%d" .Date.Month) }} {{ .Date.Year }}</td>
+            <td class="col-md-1" data-title="Beginnt">
+              {{ if eq (.Date.Format "15:04") "00:00" }}
+                <span class="text-muted">n. a.</span>
+              {{ else }}
+                {{ .Date.Format "15:04" }}
+              {{ end }}
+            </td>
+            <td class="col-md-2" data-title="Veranstaltung">{{ .Title }}</td>
+            <td class="col-md-2" data-title="Ort/Treffpunkt">{{ .Params.ort }}</td>
+            <td class="col-md-2" data-title="Verein" class="default_catheader_cell">{{ .Params.verein }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+{{ end }}
+
+{{ partial "footer.html" . }}
