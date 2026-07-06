@@ -4,8 +4,8 @@ X-WR-CALNAME:Heimatverein{{print "\r"}}
 PRODID:Niederjosbacher Heimat- und Geschichtsverein 2007 e.V.{{print "\r"}}
 CALSCALE:GREGORIAN{{print "\r"}}
 METHOD:PUBLISH{{print "\r"}}
-{{ range .RegularPagesRecursive }}
-  {{ if .Params.verein }}
+{{ range .RegularPagesRecursive -}}
+{{ if .Params.verein -}}
 BEGIN:VEVENT{{print "\r"}}
 ORGANIZER;CN=Heimatverein:mailto:vorsitzende@heimatverein-niederjosbach.de{{print "\r"}}
 SUMMARY:{{replace .Title "," "\\,"}}{{print "\r"}}
@@ -18,8 +18,8 @@ DTSTART;TZID=Europe/Berlin:{{dateFormat "20060102T150405" .Date}}{{print "\r"}}
 DTEND;TZID=Europe/Berlin:{{dateFormat "20060102T" .Date}}235900{{print "\r"}}
 LOCATION:{{replace .Params.ort "," "\\,"}}{{print "\r"}}
 END:VEVENT{{print "\r"}}
-  {{ end }}
-{{ end }}
+{{ end -}}
+{{ end -}}
 BEGIN:VTIMEZONE{{print "\r"}}
 TZID:Europe/Berlin{{print "\r"}}
 X-LIC-LOCATION:Europe/Berlin{{print "\r"}}
