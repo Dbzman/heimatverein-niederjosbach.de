@@ -10,3 +10,6 @@ themes/heimatverein-niederjosbach/bootstrap-sass/.bundle
 # Local Netlify folder
 .netlify
 resources
+
+# Local Makefile config / credentials
+.env
